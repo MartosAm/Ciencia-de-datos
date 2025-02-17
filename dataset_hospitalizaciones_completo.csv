@@ -1,0 +1,501 @@
+ID_Paciente,Edad,Género,Fecha_Ingreso,Fecha_Alta,Motivo_Hospitalización,Unidad_Médica,Región_Hospitalaria,Saturación_Hospital,Condiciones_Preexistentes,Estacionalidad,Días_Estancia,Disponibilidad_Cama,Disponibilidad_Medicamentos,Disponibilidad_Doctores,Disponibilidad_Recursos,Riesgo_Saturación,Índice_Urgencia
+1,36,Otro,2023-02-17,2023-03-08,Cirugía programada,UCI,Centro,Baja,Cáncer,Otoño,19,Disponible,Crítica,Insuficiente,Crítica,Bajo,Moderado
+2,75,Otro,2023-01-19,2023-01-20,Neumonía,Traumatología,Este,Baja,Obesidad,Verano,1,Disponible,Baja,Insuficiente,Crítica,Bajo,Grave
+3,29,Femenino,2023-05-01,2023-05-06,Accidente,Traumatología,Norte,Baja,Obesidad,Primavera,5,Disponible,Media,Insuficiente,Adecuada,Bajo,Crítico
+4,64,Otro,2023-06-23,2023-06-29,COVID-19,Urgencias,Este,Baja,Ninguna,Invierno,6,Disponible,Crítica,Crítica,Crítica,Bajo,Crítico
+5,40,Femenino,2023-12-18,2024-01-03,Neumonía,Medicina Interna,Este,Baja,Hipertensión,Otoño,16,Disponible,Alta,Crítica,Adecuada,Bajo,Grave
+6,64,Femenino,2023-06-12,2023-06-19,Infarto,Pediatría,Centro,Media,Ninguna,Verano,7,Disponible,Media,Suficiente,Deficiente,Alto,Crítico
+7,18,Masculino,2023-12-06,2023-12-17,COVID-19,Medicina Interna,Norte,Baja,Obesidad,Primavera,11,Disponible,Baja,Crítica,Óptima,Bajo,Crítico
+8,76,Masculino,2023-01-28,2023-02-07,Infarto,Pediatría,Este,Alta,Asma,Verano,10,No disponible,Media,Crítica,Adecuada,Alto,Crítico
+9,73,Otro,2023-01-10,2023-01-17,Enfermedad renal,Traumatología,Oeste,Baja,Obesidad,Otoño,7,Disponible,Baja,Suficiente,Crítica,Bajo,Grave
+10,59,Femenino,2023-03-09,2023-03-12,COVID-19,Pediatría,Oeste,Alta,Cáncer,Invierno,3,No disponible,Crítica,Moderada,Óptima,Crítico,Crítico
+11,53,Otro,2023-04-23,2023-05-03,Infarto,UCI,Centro,Alta,Cáncer,Verano,10,No disponible,Baja,Crítica,Adecuada,Alto,Crítico
+12,17,Masculino,2023-11-11,2023-11-18,Enfermedad renal,Traumatología,Centro,Baja,Cáncer,Primavera,7,Disponible,Crítica,Moderada,Adecuada,Bajo,Grave
+13,73,Masculino,2023-05-01,2023-05-20,Infarto,UCI,Este,Baja,Obesidad,Invierno,19,Disponible,Alta,Suficiente,Óptima,Bajo,Crítico
+14,71,Femenino,2023-04-14,2023-04-15,Accidente,Urgencias,Sur,Media,Cáncer,Otoño,1,Disponible,Crítica,Insuficiente,Óptima,Medio,Crítico
+15,68,Femenino,2023-04-26,2023-05-12,Enfermedad renal,Urgencias,Norte,Media,Diabetes,Otoño,16,Disponible,Alta,Crítica,Adecuada,Medio,Grave
+16,36,Femenino,2023-09-02,2023-09-03,Cirugía programada,Pediatría,Sur,Baja,Asma,Invierno,1,Disponible,Media,Moderada,Deficiente,Bajo,Moderado
+17,17,Masculino,2023-10-04,2023-10-14,Enfermedad renal,UCI,Norte,Alta,Cáncer,Primavera,10,No disponible,Alta,Insuficiente,Adecuada,Alto,Grave
+18,20,Otro,2023-12-02,2023-12-06,Accidente,Pediatría,Este,Baja,Diabetes,Primavera,4,Disponible,Media,Moderada,Adecuada,Bajo,Crítico
+19,42,Otro,2023-09-19,2023-09-25,COVID-19,Pediatría,Oeste,Baja,Hipertensión,Verano,6,Disponible,Baja,Suficiente,Adecuada,Bajo,Crítico
+20,69,Otro,2023-01-27,2023-01-29,Accidente,UCI,Norte,Media,Asma,Verano,2,Disponible,Crítica,Suficiente,Óptima,Medio,Crítico
+21,86,Otro,2023-04-07,2023-04-19,Accidente,Pediatría,Este,Baja,Ninguna,Verano,12,Disponible,Baja,Moderada,Deficiente,Bajo,Crítico
+22,87,Masculino,2023-04-27,2023-04-30,Neumonía,Medicina Interna,Este,Media,Cáncer,Invierno,3,Disponible,Alta,Insuficiente,Deficiente,Alto,Grave
+23,41,Masculino,2023-10-22,2023-10-28,Enfermedad renal,Urgencias,Oeste,Baja,Cáncer,Otoño,6,Disponible,Baja,Moderada,Deficiente,Bajo,Grave
+24,3,Otro,2023-12-02,2023-12-04,Cirugía programada,Pediatría,Sur,Alta,Asma,Primavera,2,No disponible,Crítica,Crítica,Deficiente,Alto,Moderado
+25,74,Masculino,2023-07-17,2023-07-30,Cirugía programada,Medicina Interna,Norte,Baja,Asma,Otoño,13,Disponible,Alta,Insuficiente,Crítica,Bajo,Moderado
+26,67,Masculino,2023-11-14,2023-12-04,Neumonía,Medicina Interna,Sur,Baja,Hipertensión,Otoño,20,Disponible,Media,Crítica,Deficiente,Bajo,Grave
+27,45,Otro,2023-04-17,2023-05-03,Infarto,Traumatología,Oeste,Baja,Diabetes,Verano,16,Disponible,Baja,Moderada,Crítica,Bajo,Crítico
+28,31,Otro,2023-08-04,2023-08-18,Enfermedad renal,Pediatría,Este,Media,Obesidad,Verano,14,Disponible,Baja,Crítica,Óptima,Medio,Grave
+29,84,Masculino,2023-11-03,2023-11-12,Cirugía programada,Pediatría,Centro,Media,Asma,Invierno,9,Disponible,Baja,Moderada,Deficiente,Alto,Moderado
+30,14,Masculino,2023-01-19,2023-02-07,Neumonía,Pediatría,Sur,Alta,Cáncer,Otoño,19,No disponible,Media,Suficiente,Óptima,Bajo,Grave
+31,11,Femenino,2023-05-07,2023-05-20,Neumonía,Medicina Interna,Centro,Alta,Hipertensión,Verano,13,No disponible,Alta,Crítica,Deficiente,Alto,Grave
+32,51,Otro,2023-01-13,2023-01-22,Neumonía,Urgencias,Este,Baja,Diabetes,Otoño,9,Disponible,Alta,Moderada,Óptima,Bajo,Grave
+33,84,Otro,2023-03-13,2023-03-20,Cirugía programada,Urgencias,Norte,Alta,Diabetes,Invierno,7,No disponible,Alta,Moderada,Óptima,Bajo,Moderado
+34,71,Masculino,2023-07-07,2023-07-17,Infarto,UCI,Norte,Alta,Ninguna,Otoño,10,No disponible,Crítica,Moderada,Crítica,Crítico,Crítico
+35,29,Masculino,2023-05-18,2023-06-01,COVID-19,Pediatría,Sur,Media,Asma,Primavera,14,Disponible,Baja,Moderada,Óptima,Medio,Crítico
+36,69,Otro,2023-06-26,2023-07-14,Cirugía programada,Urgencias,Sur,Alta,Hipertensión,Verano,18,No disponible,Media,Moderada,Deficiente,Bajo,Moderado
+37,27,Femenino,2023-01-10,2023-01-25,COVID-19,UCI,Norte,Baja,Asma,Verano,15,Disponible,Baja,Suficiente,Adecuada,Bajo,Crítico
+38,44,Masculino,2023-02-07,2023-02-15,Infarto,Medicina Interna,Oeste,Baja,Diabetes,Otoño,8,Disponible,Baja,Suficiente,Deficiente,Bajo,Crítico
+39,47,Otro,2023-05-26,2023-06-14,Cirugía programada,Pediatría,Centro,Media,Hipertensión,Primavera,19,Disponible,Baja,Suficiente,Deficiente,Alto,Moderado
+40,21,Masculino,2023-08-11,2023-08-17,Enfermedad renal,UCI,Sur,Media,Hipertensión,Verano,6,Disponible,Alta,Moderada,Adecuada,Medio,Grave
+41,54,Masculino,2023-06-08,2023-06-22,COVID-19,Pediatría,Centro,Media,Obesidad,Invierno,14,Disponible,Crítica,Crítica,Deficiente,Alto,Crítico
+42,4,Femenino,2023-04-12,2023-05-02,Cirugía programada,Urgencias,Este,Media,Cáncer,Verano,20,Disponible,Baja,Suficiente,Óptima,Medio,Moderado
+43,52,Femenino,2023-12-26,2024-01-02,Accidente,Pediatría,Este,Media,Hipertensión,Primavera,7,Disponible,Alta,Insuficiente,Deficiente,Alto,Crítico
+44,43,Femenino,2023-11-19,2023-11-29,Enfermedad renal,Medicina Interna,Norte,Media,Obesidad,Invierno,10,Disponible,Alta,Suficiente,Deficiente,Alto,Grave
+45,4,Otro,2023-07-16,2023-08-03,COVID-19,UCI,Oeste,Baja,Obesidad,Primavera,18,Disponible,Media,Suficiente,Crítica,Bajo,Crítico
+46,71,Femenino,2023-07-19,2023-08-07,Infarto,UCI,Este,Baja,Diabetes,Invierno,19,Disponible,Baja,Suficiente,Crítica,Bajo,Crítico
+47,68,Femenino,2023-01-27,2023-02-09,COVID-19,Urgencias,Centro,Alta,Obesidad,Primavera,13,No disponible,Baja,Suficiente,Deficiente,Alto,Crítico
+48,25,Masculino,2023-08-14,2023-08-17,Infarto,Traumatología,Este,Alta,Diabetes,Otoño,3,No disponible,Baja,Insuficiente,Crítica,Crítico,Crítico
+49,73,Otro,2023-07-15,2023-07-23,Cirugía programada,Urgencias,Norte,Baja,Diabetes,Verano,8,Disponible,Media,Insuficiente,Crítica,Bajo,Moderado
+50,62,Masculino,2023-02-16,2023-03-06,Enfermedad renal,Medicina Interna,Este,Media,Cáncer,Verano,18,Disponible,Media,Suficiente,Óptima,Medio,Grave
+51,60,Masculino,2023-08-07,2023-08-10,Cirugía programada,UCI,Sur,Baja,Asma,Invierno,3,Disponible,Alta,Crítica,Crítica,Bajo,Moderado
+52,48,Femenino,2023-09-02,2023-09-14,Neumonía,UCI,Oeste,Baja,Diabetes,Verano,12,Disponible,Alta,Suficiente,Deficiente,Bajo,Grave
+53,14,Masculino,2023-10-14,2023-10-17,Infarto,Urgencias,Oeste,Alta,Cáncer,Primavera,3,No disponible,Baja,Crítica,Adecuada,Alto,Crítico
+54,17,Masculino,2023-07-28,2023-07-29,Enfermedad renal,Urgencias,Este,Baja,Obesidad,Verano,1,Disponible,Alta,Insuficiente,Óptima,Bajo,Grave
+55,25,Femenino,2023-09-07,2023-09-13,COVID-19,Medicina Interna,Oeste,Alta,Ninguna,Otoño,6,No disponible,Alta,Moderada,Deficiente,Bajo,Crítico
+56,59,Masculino,2023-01-19,2023-02-06,COVID-19,UCI,Sur,Alta,Asma,Otoño,18,No disponible,Crítica,Insuficiente,Adecuada,Alto,Crítico
+57,65,Femenino,2023-08-28,2023-09-15,COVID-19,Medicina Interna,Centro,Alta,Ninguna,Primavera,18,No disponible,Alta,Crítica,Crítica,Crítico,Crítico
+58,71,Masculino,2023-05-23,2023-06-05,Accidente,Pediatría,Este,Alta,Ninguna,Otoño,13,No disponible,Alta,Crítica,Crítica,Crítico,Crítico
+59,90,Otro,2023-06-02,2023-06-06,Enfermedad renal,Medicina Interna,Norte,Media,Cáncer,Verano,4,Disponible,Baja,Suficiente,Crítica,Alto,Grave
+60,41,Masculino,2023-10-04,2023-10-14,Enfermedad renal,Urgencias,Este,Baja,Cáncer,Invierno,10,Disponible,Alta,Moderada,Deficiente,Bajo,Grave
+61,10,Masculino,2023-07-24,2023-08-04,Infarto,Medicina Interna,Este,Alta,Obesidad,Verano,11,No disponible,Baja,Moderada,Adecuada,Alto,Crítico
+62,14,Masculino,2023-08-06,2023-08-10,Neumonía,Medicina Interna,Norte,Baja,Asma,Verano,4,Disponible,Alta,Crítica,Crítica,Bajo,Grave
+63,78,Masculino,2023-03-20,2023-03-29,Cirugía programada,Medicina Interna,Norte,Alta,Diabetes,Primavera,9,No disponible,Baja,Suficiente,Deficiente,Alto,Moderado
+64,31,Otro,2023-01-02,2023-01-03,Infarto,UCI,Centro,Media,Diabetes,Invierno,1,Disponible,Baja,Crítica,Adecuada,Medio,Crítico
+65,36,Otro,2023-03-24,2023-04-08,Cirugía programada,Medicina Interna,Centro,Baja,Diabetes,Primavera,15,Disponible,Crítica,Crítica,Adecuada,Bajo,Moderado
+66,80,Otro,2023-09-25,2023-10-03,Neumonía,Traumatología,Norte,Alta,Ninguna,Primavera,8,No disponible,Crítica,Insuficiente,Adecuada,Alto,Grave
+67,53,Otro,2023-03-23,2023-04-05,COVID-19,Medicina Interna,Este,Baja,Asma,Primavera,13,Disponible,Baja,Insuficiente,Adecuada,Bajo,Crítico
+68,30,Masculino,2023-06-11,2023-06-27,Infarto,Urgencias,Oeste,Alta,Diabetes,Otoño,16,No disponible,Crítica,Crítica,Crítica,Crítico,Crítico
+69,76,Otro,2023-04-18,2023-04-27,COVID-19,Medicina Interna,Norte,Media,Obesidad,Primavera,9,Disponible,Alta,Suficiente,Adecuada,Medio,Crítico
+70,40,Masculino,2023-10-12,2023-10-27,Neumonía,Traumatología,Este,Baja,Cáncer,Invierno,15,Disponible,Crítica,Suficiente,Deficiente,Bajo,Grave
+71,66,Femenino,2023-09-11,2023-09-14,Accidente,Pediatría,Sur,Baja,Ninguna,Otoño,3,Disponible,Media,Insuficiente,Deficiente,Bajo,Crítico
+72,36,Femenino,2023-04-07,2023-04-11,Cirugía programada,UCI,Sur,Media,Hipertensión,Invierno,4,Disponible,Baja,Insuficiente,Óptima,Medio,Moderado
+73,12,Femenino,2023-12-03,2023-12-06,Cirugía programada,Urgencias,Oeste,Media,Obesidad,Otoño,3,Disponible,Media,Crítica,Adecuada,Medio,Moderado
+74,85,Femenino,2023-08-04,2023-08-09,Neumonía,Pediatría,Norte,Media,Cáncer,Invierno,5,Disponible,Baja,Suficiente,Óptima,Medio,Grave
+75,25,Femenino,2023-09-04,2023-09-07,Cirugía programada,UCI,Sur,Baja,Ninguna,Invierno,3,Disponible,Crítica,Insuficiente,Adecuada,Bajo,Moderado
+76,75,Masculino,2023-10-09,2023-10-23,Accidente,Traumatología,Sur,Alta,Ninguna,Invierno,14,No disponible,Crítica,Crítica,Adecuada,Alto,Crítico
+77,67,Otro,2023-09-14,2023-09-28,Cirugía programada,Pediatría,Este,Alta,Diabetes,Primavera,14,No disponible,Alta,Moderada,Adecuada,Bajo,Moderado
+78,4,Masculino,2023-06-03,2023-06-17,Neumonía,Pediatría,Centro,Baja,Cáncer,Invierno,14,Disponible,Crítica,Moderada,Adecuada,Bajo,Grave
+79,26,Masculino,2023-11-07,2023-11-11,Infarto,Urgencias,Norte,Alta,Ninguna,Otoño,4,No disponible,Alta,Insuficiente,Adecuada,Alto,Crítico
+80,24,Otro,2023-09-13,2023-09-20,Infarto,UCI,Centro,Alta,Cáncer,Otoño,7,No disponible,Baja,Suficiente,Deficiente,Alto,Crítico
+81,37,Masculino,2023-04-22,2023-04-26,Cirugía programada,Traumatología,Sur,Alta,Diabetes,Otoño,4,No disponible,Crítica,Suficiente,Deficiente,Alto,Moderado
+82,73,Masculino,2023-01-10,2023-01-11,Enfermedad renal,UCI,Oeste,Baja,Diabetes,Verano,1,Disponible,Media,Moderada,Óptima,Bajo,Grave
+83,6,Femenino,2023-05-09,2023-05-10,Accidente,UCI,Oeste,Alta,Asma,Verano,1,No disponible,Baja,Suficiente,Óptima,Crítico,Crítico
+84,26,Otro,2023-12-26,2023-12-29,Accidente,UCI,Oeste,Alta,Ninguna,Verano,3,No disponible,Media,Moderada,Adecuada,Bajo,Crítico
+85,44,Otro,2023-05-24,2023-06-12,Enfermedad renal,Urgencias,Oeste,Baja,Ninguna,Invierno,19,Disponible,Media,Moderada,Adecuada,Bajo,Grave
+86,13,Femenino,2023-02-24,2023-03-02,Infarto,Traumatología,Centro,Alta,Hipertensión,Verano,6,No disponible,Crítica,Moderada,Adecuada,Alto,Crítico
+87,61,Femenino,2023-02-16,2023-03-03,COVID-19,Medicina Interna,Centro,Alta,Cáncer,Invierno,15,No disponible,Media,Crítica,Deficiente,Alto,Crítico
+88,4,Otro,2023-03-11,2023-03-31,Enfermedad renal,Pediatría,Oeste,Baja,Asma,Otoño,20,Disponible,Crítica,Insuficiente,Adecuada,Bajo,Grave
+89,39,Otro,2023-07-13,2023-07-16,COVID-19,Pediatría,Norte,Media,Hipertensión,Otoño,3,Disponible,Alta,Suficiente,Deficiente,Alto,Crítico
+90,28,Otro,2023-02-24,2023-03-09,COVID-19,UCI,Centro,Media,Diabetes,Primavera,13,Disponible,Baja,Moderada,Crítica,Alto,Crítico
+91,83,Masculino,2023-05-01,2023-05-15,Cirugía programada,Medicina Interna,Centro,Alta,Hipertensión,Verano,14,No disponible,Alta,Insuficiente,Adecuada,Alto,Moderado
+92,24,Masculino,2023-04-23,2023-05-13,Enfermedad renal,Traumatología,Oeste,Baja,Ninguna,Otoño,20,Disponible,Alta,Insuficiente,Deficiente,Bajo,Grave
+93,42,Femenino,2023-02-15,2023-03-02,Cirugía programada,Medicina Interna,Centro,Media,Obesidad,Invierno,15,Disponible,Baja,Moderada,Crítica,Alto,Moderado
+94,79,Otro,2023-04-28,2023-05-13,COVID-19,Pediatría,Sur,Media,Asma,Verano,15,Disponible,Crítica,Insuficiente,Óptima,Medio,Crítico
+95,47,Otro,2023-03-13,2023-03-31,Neumonía,UCI,Sur,Baja,Asma,Invierno,18,Disponible,Media,Insuficiente,Deficiente,Bajo,Grave
+96,37,Femenino,2023-03-24,2023-03-29,Cirugía programada,Traumatología,Este,Media,Obesidad,Verano,5,Disponible,Crítica,Crítica,Deficiente,Alto,Moderado
+97,11,Femenino,2023-05-10,2023-05-30,Accidente,Traumatología,Este,Alta,Ninguna,Primavera,20,No disponible,Media,Crítica,Adecuada,Alto,Crítico
+98,65,Femenino,2023-09-28,2023-10-06,COVID-19,Traumatología,Norte,Baja,Asma,Verano,8,Disponible,Crítica,Insuficiente,Crítica,Bajo,Crítico
+99,51,Otro,2023-04-18,2023-04-19,Cirugía programada,Pediatría,Sur,Baja,Obesidad,Verano,1,Disponible,Baja,Moderada,Óptima,Bajo,Moderado
+100,31,Femenino,2023-02-21,2023-03-13,COVID-19,Traumatología,Este,Baja,Asma,Verano,20,Disponible,Baja,Moderada,Deficiente,Bajo,Crítico
+101,20,Otro,2023-07-05,2023-07-13,Cirugía programada,Pediatría,Norte,Baja,Cáncer,Otoño,8,Disponible,Media,Moderada,Crítica,Bajo,Moderado
+102,85,Otro,2023-12-20,2024-01-05,Infarto,Urgencias,Oeste,Media,Hipertensión,Invierno,16,Disponible,Media,Moderada,Crítica,Alto,Crítico
+103,36,Femenino,2023-12-19,2023-12-25,Neumonía,Urgencias,Norte,Alta,Hipertensión,Invierno,6,No disponible,Baja,Suficiente,Adecuada,Alto,Grave
+104,74,Masculino,2023-07-16,2023-07-30,Accidente,UCI,Este,Alta,Obesidad,Otoño,14,No disponible,Alta,Crítica,Adecuada,Alto,Crítico
+105,33,Otro,2023-12-27,2024-01-04,Infarto,Medicina Interna,Este,Baja,Diabetes,Otoño,8,Disponible,Baja,Insuficiente,Óptima,Bajo,Crítico
+106,52,Masculino,2023-11-12,2023-11-30,COVID-19,UCI,Oeste,Baja,Asma,Primavera,18,Disponible,Baja,Suficiente,Deficiente,Bajo,Crítico
+107,3,Femenino,2023-03-14,2023-03-15,Cirugía programada,UCI,Sur,Alta,Diabetes,Otoño,1,No disponible,Baja,Suficiente,Crítica,Crítico,Moderado
+108,67,Femenino,2023-01-04,2023-01-13,Cirugía programada,Traumatología,Centro,Media,Asma,Verano,9,Disponible,Media,Suficiente,Crítica,Alto,Moderado
+109,67,Otro,2023-03-01,2023-03-10,Cirugía programada,Urgencias,Este,Baja,Diabetes,Otoño,9,Disponible,Baja,Crítica,Óptima,Bajo,Moderado
+110,27,Femenino,2023-05-15,2023-06-03,Neumonía,Medicina Interna,Norte,Baja,Ninguna,Otoño,19,Disponible,Media,Suficiente,Adecuada,Bajo,Grave
+111,65,Masculino,2023-06-11,2023-06-15,COVID-19,Pediatría,Centro,Alta,Asma,Otoño,4,No disponible,Alta,Suficiente,Deficiente,Bajo,Crítico
+112,32,Femenino,2023-01-28,2023-02-12,Cirugía programada,Pediatría,Centro,Baja,Hipertensión,Primavera,15,Disponible,Alta,Moderada,Deficiente,Bajo,Moderado
+113,85,Masculino,2023-05-07,2023-05-24,Neumonía,Traumatología,Este,Alta,Hipertensión,Otoño,17,No disponible,Alta,Moderada,Adecuada,Bajo,Grave
+114,14,Otro,2023-07-11,2023-07-30,Infarto,Traumatología,Este,Baja,Ninguna,Verano,19,Disponible,Baja,Moderada,Crítica,Bajo,Crítico
+115,21,Femenino,2023-12-17,2023-12-22,Infarto,Traumatología,Sur,Media,Ninguna,Verano,5,Disponible,Baja,Insuficiente,Óptima,Medio,Crítico
+116,86,Otro,2023-12-10,2023-12-17,Accidente,Medicina Interna,Oeste,Baja,Cáncer,Invierno,7,Disponible,Crítica,Insuficiente,Óptima,Bajo,Crítico
+117,67,Femenino,2023-07-16,2023-07-20,Enfermedad renal,Pediatría,Oeste,Baja,Obesidad,Verano,4,Disponible,Crítica,Insuficiente,Crítica,Bajo,Grave
+118,2,Otro,2023-01-20,2023-02-04,Neumonía,Medicina Interna,Oeste,Baja,Diabetes,Invierno,15,Disponible,Crítica,Crítica,Adecuada,Bajo,Grave
+119,15,Otro,2023-06-10,2023-06-28,Neumonía,Medicina Interna,Oeste,Baja,Ninguna,Invierno,18,Disponible,Crítica,Crítica,Óptima,Bajo,Grave
+120,17,Masculino,2023-08-06,2023-08-22,Enfermedad renal,Pediatría,Norte,Alta,Hipertensión,Invierno,16,No disponible,Baja,Insuficiente,Adecuada,Alto,Grave
+121,6,Femenino,2023-12-12,2023-12-15,COVID-19,UCI,Norte,Media,Obesidad,Primavera,3,Disponible,Baja,Insuficiente,Adecuada,Medio,Crítico
+122,79,Masculino,2023-09-15,2023-09-25,Cirugía programada,Medicina Interna,Norte,Alta,Obesidad,Verano,10,No disponible,Media,Crítica,Óptima,Crítico,Moderado
+123,26,Femenino,2023-04-27,2023-05-12,Cirugía programada,Medicina Interna,Sur,Alta,Obesidad,Primavera,15,No disponible,Baja,Suficiente,Adecuada,Alto,Moderado
+124,27,Otro,2023-07-19,2023-07-28,Accidente,Medicina Interna,Norte,Baja,Asma,Verano,9,Disponible,Alta,Insuficiente,Adecuada,Bajo,Crítico
+125,33,Otro,2023-02-18,2023-02-28,COVID-19,UCI,Norte,Baja,Diabetes,Verano,10,Disponible,Crítica,Insuficiente,Crítica,Bajo,Crítico
+126,52,Masculino,2023-12-18,2023-12-20,Accidente,Urgencias,Este,Alta,Diabetes,Otoño,2,No disponible,Media,Crítica,Óptima,Crítico,Crítico
+127,3,Femenino,2023-12-07,2023-12-12,COVID-19,Urgencias,Centro,Alta,Diabetes,Invierno,5,No disponible,Media,Moderada,Crítica,Bajo,Crítico
+128,36,Femenino,2023-03-23,2023-04-01,Infarto,Urgencias,Centro,Baja,Asma,Invierno,9,Disponible,Media,Insuficiente,Óptima,Bajo,Crítico
+129,86,Otro,2023-07-08,2023-07-27,Infarto,Traumatología,Oeste,Media,Obesidad,Invierno,19,Disponible,Media,Suficiente,Deficiente,Alto,Crítico
+130,40,Femenino,2023-01-09,2023-01-24,Enfermedad renal,Pediatría,Norte,Alta,Obesidad,Primavera,15,No disponible,Baja,Insuficiente,Óptima,Crítico,Grave
+131,25,Otro,2023-01-12,2023-01-24,Enfermedad renal,UCI,Sur,Alta,Cáncer,Otoño,12,No disponible,Alta,Insuficiente,Adecuada,Alto,Grave
+132,80,Otro,2023-03-23,2023-04-04,Enfermedad renal,Medicina Interna,Norte,Alta,Ninguna,Verano,12,No disponible,Media,Insuficiente,Óptima,Crítico,Grave
+133,26,Masculino,2023-01-19,2023-01-23,Cirugía programada,Pediatría,Este,Alta,Obesidad,Invierno,4,No disponible,Alta,Crítica,Deficiente,Alto,Moderado
+134,7,Otro,2023-03-15,2023-03-27,Neumonía,UCI,Norte,Baja,Cáncer,Verano,12,Disponible,Baja,Moderada,Adecuada,Bajo,Grave
+135,24,Otro,2023-10-21,2023-11-08,Accidente,Urgencias,Centro,Alta,Ninguna,Otoño,18,No disponible,Baja,Crítica,Deficiente,Alto,Crítico
+136,39,Femenino,2023-12-08,2023-12-23,Accidente,Pediatría,Este,Media,Hipertensión,Primavera,15,Disponible,Baja,Crítica,Deficiente,Alto,Crítico
+137,69,Femenino,2023-10-02,2023-10-12,Enfermedad renal,Medicina Interna,Este,Media,Obesidad,Primavera,10,Disponible,Crítica,Suficiente,Deficiente,Alto,Grave
+138,54,Masculino,2023-02-03,2023-02-10,COVID-19,Traumatología,Centro,Baja,Cáncer,Invierno,7,Disponible,Crítica,Insuficiente,Óptima,Bajo,Crítico
+139,7,Masculino,2023-06-09,2023-06-27,Cirugía programada,Medicina Interna,Centro,Baja,Cáncer,Verano,18,Disponible,Crítica,Crítica,Adecuada,Bajo,Moderado
+140,78,Femenino,2023-04-09,2023-04-19,Cirugía programada,Pediatría,Oeste,Media,Cáncer,Primavera,10,Disponible,Alta,Insuficiente,Adecuada,Medio,Moderado
+141,44,Otro,2023-03-01,2023-03-03,COVID-19,Medicina Interna,Sur,Media,Hipertensión,Invierno,2,Disponible,Alta,Crítica,Adecuada,Medio,Crítico
+142,33,Femenino,2023-02-13,2023-03-01,Accidente,UCI,Centro,Alta,Asma,Invierno,16,No disponible,Media,Insuficiente,Crítica,Crítico,Crítico
+143,33,Otro,2023-10-20,2023-11-02,COVID-19,Pediatría,Centro,Media,Obesidad,Invierno,13,Disponible,Baja,Crítica,Deficiente,Alto,Crítico
+144,72,Masculino,2023-08-21,2023-08-31,Infarto,Traumatología,Sur,Baja,Diabetes,Otoño,10,Disponible,Crítica,Crítica,Crítica,Bajo,Crítico
+145,36,Masculino,2023-02-08,2023-02-10,Infarto,UCI,Sur,Baja,Hipertensión,Primavera,2,Disponible,Alta,Suficiente,Deficiente,Bajo,Crítico
+146,33,Masculino,2023-06-08,2023-06-23,COVID-19,UCI,Este,Media,Obesidad,Invierno,15,Disponible,Media,Moderada,Adecuada,Medio,Crítico
+147,13,Otro,2023-03-06,2023-03-21,Infarto,Traumatología,Este,Baja,Ninguna,Otoño,15,Disponible,Baja,Crítica,Crítica,Bajo,Crítico
+148,81,Otro,2023-03-14,2023-03-28,Accidente,Traumatología,Sur,Baja,Obesidad,Primavera,14,Disponible,Media,Suficiente,Adecuada,Bajo,Crítico
+149,62,Femenino,2023-05-16,2023-06-02,Neumonía,Medicina Interna,Centro,Baja,Obesidad,Verano,17,Disponible,Baja,Suficiente,Crítica,Bajo,Grave
+150,85,Femenino,2023-03-26,2023-04-06,Infarto,Traumatología,Oeste,Baja,Obesidad,Invierno,11,Disponible,Alta,Moderada,Óptima,Bajo,Crítico
+151,48,Otro,2023-04-09,2023-04-25,Enfermedad renal,Medicina Interna,Centro,Media,Asma,Primavera,16,Disponible,Baja,Suficiente,Deficiente,Alto,Grave
+152,85,Otro,2023-08-05,2023-08-08,Accidente,Urgencias,Norte,Alta,Cáncer,Otoño,3,No disponible,Crítica,Moderada,Adecuada,Alto,Crítico
+153,38,Masculino,2023-08-07,2023-08-16,Neumonía,UCI,Oeste,Alta,Obesidad,Invierno,9,No disponible,Alta,Insuficiente,Deficiente,Alto,Grave
+154,25,Femenino,2023-07-23,2023-07-25,Neumonía,Traumatología,Este,Baja,Hipertensión,Invierno,2,Disponible,Alta,Moderada,Óptima,Bajo,Grave
+155,5,Femenino,2023-03-12,2023-03-27,COVID-19,Urgencias,Norte,Media,Obesidad,Verano,15,Disponible,Crítica,Moderada,Óptima,Medio,Crítico
+156,46,Femenino,2023-10-13,2023-10-14,Neumonía,Traumatología,Norte,Media,Obesidad,Invierno,1,Disponible,Baja,Moderada,Óptima,Medio,Grave
+157,64,Femenino,2023-08-07,2023-08-26,Infarto,UCI,Sur,Baja,Diabetes,Primavera,19,Disponible,Media,Suficiente,Crítica,Bajo,Crítico
+158,41,Masculino,2023-02-01,2023-02-12,Accidente,Medicina Interna,Oeste,Alta,Diabetes,Invierno,11,No disponible,Crítica,Moderada,Adecuada,Alto,Crítico
+159,4,Otro,2023-08-05,2023-08-20,Cirugía programada,UCI,Centro,Baja,Hipertensión,Verano,15,Disponible,Baja,Insuficiente,Adecuada,Bajo,Moderado
+160,50,Otro,2023-07-20,2023-07-27,Cirugía programada,Pediatría,Norte,Alta,Asma,Verano,7,No disponible,Media,Insuficiente,Crítica,Crítico,Moderado
+161,1,Femenino,2023-04-06,2023-04-25,Infarto,Pediatría,Sur,Media,Hipertensión,Invierno,19,Disponible,Media,Insuficiente,Adecuada,Medio,Crítico
+162,2,Masculino,2023-04-19,2023-04-27,Accidente,UCI,Este,Alta,Obesidad,Otoño,8,No disponible,Media,Moderada,Crítica,Bajo,Crítico
+163,87,Masculino,2023-12-04,2023-12-11,Accidente,UCI,Oeste,Alta,Cáncer,Verano,7,No disponible,Crítica,Insuficiente,Crítica,Crítico,Crítico
+164,44,Otro,2023-07-16,2023-07-18,Enfermedad renal,Traumatología,Norte,Media,Asma,Verano,2,Disponible,Crítica,Crítica,Adecuada,Medio,Grave
+165,71,Otro,2023-06-07,2023-06-10,Enfermedad renal,Medicina Interna,Norte,Alta,Diabetes,Verano,3,No disponible,Baja,Insuficiente,Deficiente,Alto,Grave
+166,14,Otro,2023-06-25,2023-07-11,Enfermedad renal,Urgencias,Sur,Media,Asma,Verano,16,Disponible,Media,Suficiente,Óptima,Medio,Grave
+167,71,Masculino,2023-02-16,2023-02-28,Enfermedad renal,UCI,Norte,Alta,Cáncer,Otoño,12,No disponible,Baja,Moderada,Crítica,Crítico,Grave
+168,11,Otro,2023-10-12,2023-10-31,Neumonía,Pediatría,Este,Baja,Diabetes,Otoño,19,Disponible,Baja,Suficiente,Crítica,Bajo,Grave
+169,45,Otro,2023-06-12,2023-06-28,Cirugía programada,Pediatría,Oeste,Alta,Hipertensión,Primavera,16,No disponible,Crítica,Insuficiente,Adecuada,Alto,Moderado
+170,22,Masculino,2023-09-28,2023-10-15,Accidente,Pediatría,Centro,Media,Diabetes,Otoño,17,Disponible,Alta,Suficiente,Crítica,Alto,Crítico
+171,11,Masculino,2023-10-14,2023-10-25,Enfermedad renal,Traumatología,Norte,Baja,Cáncer,Invierno,11,Disponible,Media,Insuficiente,Crítica,Bajo,Grave
+172,22,Femenino,2023-12-05,2023-12-15,Enfermedad renal,Traumatología,Oeste,Baja,Asma,Otoño,10,Disponible,Media,Insuficiente,Óptima,Bajo,Grave
+173,27,Otro,2023-05-21,2023-05-22,Neumonía,Pediatría,Sur,Alta,Ninguna,Verano,1,No disponible,Crítica,Suficiente,Óptima,Crítico,Grave
+174,45,Femenino,2023-02-06,2023-02-09,Cirugía programada,Medicina Interna,Norte,Baja,Diabetes,Otoño,3,Disponible,Alta,Crítica,Adecuada,Bajo,Moderado
+175,55,Femenino,2023-07-04,2023-07-13,COVID-19,Traumatología,Sur,Baja,Obesidad,Invierno,9,Disponible,Crítica,Insuficiente,Adecuada,Bajo,Crítico
+176,59,Otro,2023-11-13,2023-11-24,Neumonía,UCI,Norte,Media,Asma,Verano,11,Disponible,Media,Suficiente,Óptima,Medio,Grave
+177,22,Otro,2023-09-03,2023-09-11,Infarto,Urgencias,Norte,Baja,Obesidad,Otoño,8,Disponible,Alta,Insuficiente,Crítica,Bajo,Crítico
+178,49,Otro,2023-12-14,2023-12-20,Enfermedad renal,Traumatología,Sur,Baja,Ninguna,Primavera,6,Disponible,Media,Moderada,Deficiente,Bajo,Grave
+179,86,Otro,2023-03-05,2023-03-20,Infarto,Urgencias,Norte,Alta,Asma,Invierno,15,No disponible,Media,Crítica,Deficiente,Alto,Crítico
+180,74,Femenino,2023-07-03,2023-07-13,Enfermedad renal,Traumatología,Sur,Baja,Obesidad,Invierno,10,Disponible,Alta,Moderada,Óptima,Bajo,Grave
+181,72,Otro,2023-09-24,2023-09-28,Neumonía,Urgencias,Centro,Alta,Cáncer,Primavera,4,No disponible,Media,Moderada,Crítica,Bajo,Grave
+182,39,Otro,2023-10-11,2023-10-21,Neumonía,Urgencias,Este,Baja,Hipertensión,Otoño,10,Disponible,Crítica,Suficiente,Adecuada,Bajo,Grave
+183,63,Femenino,2023-05-02,2023-05-22,Neumonía,Traumatología,Sur,Media,Cáncer,Verano,20,Disponible,Alta,Insuficiente,Deficiente,Alto,Grave
+184,37,Femenino,2023-01-05,2023-01-09,Neumonía,UCI,Este,Baja,Cáncer,Invierno,4,Disponible,Crítica,Suficiente,Crítica,Bajo,Grave
+185,5,Otro,2023-01-14,2023-01-30,Enfermedad renal,Urgencias,Este,Alta,Ninguna,Otoño,16,No disponible,Baja,Moderada,Crítica,Crítico,Grave
+186,76,Otro,2023-10-19,2023-11-05,Enfermedad renal,Urgencias,Este,Baja,Ninguna,Primavera,17,Disponible,Media,Crítica,Adecuada,Bajo,Grave
+187,7,Otro,2023-07-11,2023-07-25,COVID-19,UCI,Sur,Baja,Cáncer,Verano,14,Disponible,Baja,Moderada,Adecuada,Bajo,Crítico
+188,7,Otro,2023-01-08,2023-01-24,Infarto,Pediatría,Norte,Baja,Asma,Invierno,16,Disponible,Media,Suficiente,Deficiente,Bajo,Crítico
+189,63,Otro,2023-02-18,2023-02-25,Accidente,Medicina Interna,Este,Baja,Obesidad,Verano,7,Disponible,Alta,Moderada,Óptima,Bajo,Crítico
+190,86,Masculino,2023-03-14,2023-03-23,COVID-19,UCI,Oeste,Baja,Obesidad,Verano,9,Disponible,Media,Moderada,Adecuada,Bajo,Crítico
+191,25,Femenino,2023-05-12,2023-05-25,Neumonía,Medicina Interna,Centro,Alta,Cáncer,Verano,13,No disponible,Alta,Suficiente,Deficiente,Bajo,Grave
+192,65,Otro,2023-06-15,2023-06-23,Accidente,UCI,Centro,Alta,Diabetes,Otoño,8,No disponible,Alta,Crítica,Crítica,Crítico,Crítico
+193,50,Masculino,2023-10-24,2023-11-03,Accidente,Urgencias,Sur,Media,Ninguna,Invierno,10,Disponible,Crítica,Crítica,Adecuada,Medio,Crítico
+194,66,Femenino,2023-06-12,2023-06-18,Accidente,Medicina Interna,Oeste,Alta,Asma,Otoño,6,No disponible,Crítica,Suficiente,Deficiente,Alto,Crítico
+195,87,Otro,2023-07-19,2023-07-30,Cirugía programada,Pediatría,Oeste,Alta,Hipertensión,Primavera,11,No disponible,Baja,Crítica,Óptima,Crítico,Moderado
+196,80,Femenino,2023-03-23,2023-04-04,Cirugía programada,Pediatría,Sur,Media,Obesidad,Verano,12,Disponible,Media,Moderada,Óptima,Medio,Moderado
+197,66,Femenino,2023-12-04,2023-12-17,Accidente,Medicina Interna,Oeste,Alta,Obesidad,Otoño,13,No disponible,Alta,Insuficiente,Deficiente,Alto,Crítico
+198,87,Otro,2023-06-19,2023-06-23,Neumonía,Traumatología,Centro,Alta,Ninguna,Verano,4,No disponible,Baja,Suficiente,Deficiente,Alto,Grave
+199,28,Femenino,2023-05-20,2023-06-01,Neumonía,UCI,Norte,Alta,Ninguna,Verano,12,No disponible,Media,Insuficiente,Deficiente,Alto,Grave
+200,27,Masculino,2023-01-17,2023-01-30,Cirugía programada,Medicina Interna,Sur,Media,Hipertensión,Primavera,13,Disponible,Media,Crítica,Adecuada,Medio,Moderado
+201,38,Masculino,2023-10-07,2023-10-11,Infarto,UCI,Centro,Media,Diabetes,Primavera,4,Disponible,Crítica,Suficiente,Deficiente,Alto,Crítico
+202,78,Femenino,2023-04-03,2023-04-19,Enfermedad renal,Medicina Interna,Norte,Media,Obesidad,Otoño,16,Disponible,Alta,Moderada,Crítica,Alto,Grave
+203,65,Femenino,2023-12-24,2023-12-25,Neumonía,Traumatología,Este,Alta,Asma,Otoño,1,No disponible,Crítica,Suficiente,Óptima,Crítico,Grave
+204,67,Masculino,2023-11-22,2023-12-10,COVID-19,Pediatría,Centro,Alta,Cáncer,Primavera,18,No disponible,Crítica,Moderada,Deficiente,Alto,Crítico
+205,77,Femenino,2023-06-09,2023-06-29,Accidente,Medicina Interna,Oeste,Alta,Hipertensión,Invierno,20,No disponible,Alta,Insuficiente,Deficiente,Alto,Crítico
+206,17,Masculino,2023-11-26,2023-12-09,Neumonía,Pediatría,Centro,Baja,Asma,Invierno,13,Disponible,Baja,Moderada,Crítica,Bajo,Grave
+207,34,Masculino,2023-06-26,2023-07-04,Infarto,Pediatría,Oeste,Baja,Ninguna,Invierno,8,Disponible,Alta,Moderada,Adecuada,Bajo,Crítico
+208,4,Femenino,2023-03-03,2023-03-11,Cirugía programada,Urgencias,Sur,Alta,Obesidad,Otoño,8,No disponible,Crítica,Moderada,Adecuada,Alto,Moderado
+209,3,Femenino,2023-03-26,2023-03-31,Cirugía programada,Pediatría,Sur,Alta,Diabetes,Verano,5,No disponible,Baja,Moderada,Deficiente,Alto,Moderado
+210,71,Otro,2023-10-12,2023-10-24,Neumonía,Urgencias,Este,Alta,Diabetes,Verano,12,No disponible,Alta,Suficiente,Adecuada,Bajo,Grave
+211,40,Otro,2023-07-05,2023-07-16,Enfermedad renal,Pediatría,Este,Alta,Ninguna,Verano,11,No disponible,Crítica,Suficiente,Deficiente,Alto,Grave
+212,18,Otro,2023-03-25,2023-03-26,Accidente,UCI,Centro,Alta,Cáncer,Otoño,1,No disponible,Media,Insuficiente,Deficiente,Alto,Crítico
+213,23,Masculino,2023-08-18,2023-08-26,Accidente,UCI,Este,Baja,Obesidad,Otoño,8,Disponible,Media,Insuficiente,Deficiente,Bajo,Crítico
+214,1,Femenino,2023-12-22,2024-01-08,Infarto,Urgencias,Sur,Alta,Diabetes,Verano,17,No disponible,Crítica,Suficiente,Óptima,Crítico,Crítico
+215,84,Masculino,2023-06-04,2023-06-24,Cirugía programada,UCI,Norte,Media,Hipertensión,Otoño,20,Disponible,Baja,Suficiente,Óptima,Medio,Moderado
+216,50,Masculino,2023-06-26,2023-06-29,COVID-19,UCI,Este,Alta,Diabetes,Invierno,3,No disponible,Alta,Moderada,Crítica,Bajo,Crítico
+217,76,Masculino,2023-07-13,2023-07-24,Enfermedad renal,Medicina Interna,Oeste,Baja,Cáncer,Invierno,11,Disponible,Media,Crítica,Deficiente,Bajo,Grave
+218,23,Otro,2023-05-16,2023-05-20,Infarto,Urgencias,Norte,Baja,Cáncer,Primavera,4,Disponible,Baja,Crítica,Adecuada,Bajo,Crítico
+219,3,Otro,2023-06-18,2023-06-24,COVID-19,Traumatología,Norte,Baja,Diabetes,Invierno,6,Disponible,Crítica,Moderada,Óptima,Bajo,Crítico
+220,46,Femenino,2023-04-11,2023-04-24,Infarto,Traumatología,Este,Baja,Asma,Verano,13,Disponible,Media,Suficiente,Adecuada,Bajo,Crítico
+221,48,Otro,2023-05-24,2023-06-07,Neumonía,Traumatología,Norte,Media,Asma,Otoño,14,Disponible,Crítica,Insuficiente,Deficiente,Alto,Grave
+222,45,Otro,2023-07-20,2023-07-26,Enfermedad renal,Pediatría,Norte,Media,Hipertensión,Primavera,6,Disponible,Alta,Moderada,Adecuada,Medio,Grave
+223,71,Otro,2023-06-10,2023-06-13,Cirugía programada,UCI,Centro,Alta,Diabetes,Primavera,3,No disponible,Media,Insuficiente,Óptima,Crítico,Moderado
+224,82,Femenino,2023-04-15,2023-04-29,Accidente,UCI,Centro,Baja,Hipertensión,Otoño,14,Disponible,Baja,Moderada,Adecuada,Bajo,Crítico
+225,15,Masculino,2023-07-11,2023-07-30,COVID-19,UCI,Norte,Alta,Obesidad,Invierno,19,No disponible,Crítica,Insuficiente,Deficiente,Alto,Crítico
+226,41,Masculino,2023-09-23,2023-10-12,Neumonía,Medicina Interna,Este,Baja,Ninguna,Verano,19,Disponible,Media,Moderada,Deficiente,Bajo,Grave
+227,24,Femenino,2023-12-06,2023-12-13,Neumonía,UCI,Sur,Alta,Obesidad,Otoño,7,No disponible,Media,Crítica,Crítica,Crítico,Grave
+228,69,Otro,2023-10-01,2023-10-06,Infarto,Pediatría,Este,Media,Asma,Verano,5,Disponible,Alta,Suficiente,Deficiente,Alto,Crítico
+229,67,Otro,2023-07-18,2023-07-20,Enfermedad renal,Medicina Interna,Centro,Alta,Ninguna,Verano,2,No disponible,Baja,Moderada,Óptima,Crítico,Grave
+230,64,Femenino,2023-12-08,2023-12-16,Neumonía,Urgencias,Oeste,Baja,Ninguna,Primavera,8,Disponible,Crítica,Crítica,Deficiente,Bajo,Grave
+231,34,Masculino,2023-09-08,2023-09-17,Infarto,Urgencias,Centro,Media,Hipertensión,Invierno,9,Disponible,Crítica,Crítica,Óptima,Medio,Crítico
+232,39,Masculino,2023-12-17,2023-12-29,Cirugía programada,Urgencias,Oeste,Media,Hipertensión,Otoño,12,Disponible,Alta,Insuficiente,Óptima,Medio,Moderado
+233,29,Masculino,2023-11-20,2023-12-01,Infarto,Urgencias,Sur,Media,Cáncer,Primavera,11,Disponible,Alta,Moderada,Óptima,Medio,Crítico
+234,19,Otro,2023-05-28,2023-05-30,Infarto,Medicina Interna,Oeste,Baja,Obesidad,Otoño,2,Disponible,Baja,Insuficiente,Óptima,Bajo,Crítico
+235,49,Masculino,2023-02-27,2023-03-16,Enfermedad renal,UCI,Sur,Alta,Cáncer,Otoño,17,No disponible,Media,Moderada,Deficiente,Bajo,Grave
+236,23,Masculino,2023-10-05,2023-10-08,Infarto,Medicina Interna,Sur,Alta,Cáncer,Primavera,3,No disponible,Crítica,Moderada,Crítica,Crítico,Crítico
+237,17,Otro,2023-07-23,2023-07-26,Infarto,Medicina Interna,Sur,Alta,Diabetes,Primavera,3,No disponible,Baja,Insuficiente,Crítica,Crítico,Crítico
+238,54,Masculino,2023-11-25,2023-12-10,Neumonía,Urgencias,Sur,Alta,Ninguna,Verano,15,No disponible,Crítica,Suficiente,Crítica,Crítico,Grave
+239,36,Otro,2023-03-18,2023-03-28,Accidente,UCI,Este,Baja,Diabetes,Invierno,10,Disponible,Baja,Moderada,Adecuada,Bajo,Crítico
+240,77,Femenino,2023-08-13,2023-09-01,Neumonía,Traumatología,Este,Baja,Ninguna,Otoño,19,Disponible,Media,Suficiente,Crítica,Bajo,Grave
+241,47,Masculino,2023-01-04,2023-01-13,Cirugía programada,Urgencias,Centro,Media,Asma,Invierno,9,Disponible,Alta,Crítica,Crítica,Alto,Moderado
+242,40,Femenino,2023-02-02,2023-02-14,Enfermedad renal,Traumatología,Este,Baja,Obesidad,Invierno,12,Disponible,Alta,Moderada,Adecuada,Bajo,Grave
+243,0,Masculino,2023-08-20,2023-08-29,COVID-19,UCI,Centro,Baja,Obesidad,Verano,9,Disponible,Alta,Insuficiente,Deficiente,Bajo,Crítico
+244,1,Femenino,2023-12-24,2023-12-25,Enfermedad renal,Urgencias,Norte,Alta,Obesidad,Primavera,1,No disponible,Crítica,Insuficiente,Óptima,Crítico,Grave
+245,44,Femenino,2023-01-28,2023-02-10,Neumonía,Medicina Interna,Oeste,Baja,Hipertensión,Verano,13,Disponible,Alta,Crítica,Deficiente,Bajo,Grave
+246,17,Masculino,2023-12-03,2023-12-12,COVID-19,UCI,Centro,Media,Hipertensión,Invierno,9,Disponible,Alta,Suficiente,Adecuada,Medio,Crítico
+247,32,Otro,2023-05-09,2023-05-20,COVID-19,Urgencias,Sur,Baja,Asma,Verano,11,Disponible,Media,Suficiente,Adecuada,Bajo,Crítico
+248,40,Masculino,2023-03-28,2023-04-15,Cirugía programada,Traumatología,Este,Baja,Diabetes,Invierno,18,Disponible,Baja,Insuficiente,Deficiente,Bajo,Moderado
+249,45,Otro,2023-11-13,2023-11-17,Cirugía programada,Urgencias,Sur,Alta,Asma,Verano,4,No disponible,Alta,Moderada,Deficiente,Bajo,Moderado
+250,57,Femenino,2023-12-14,2023-12-22,Accidente,UCI,Centro,Media,Diabetes,Invierno,8,Disponible,Media,Crítica,Adecuada,Medio,Crítico
+251,0,Masculino,2023-06-22,2023-07-06,Infarto,Pediatría,Este,Alta,Asma,Primavera,14,No disponible,Alta,Insuficiente,Crítica,Crítico,Crítico
+252,17,Otro,2023-12-01,2023-12-15,Accidente,Urgencias,Norte,Baja,Hipertensión,Verano,14,Disponible,Baja,Crítica,Óptima,Bajo,Crítico
+253,26,Otro,2023-04-12,2023-04-13,Neumonía,Medicina Interna,Centro,Alta,Cáncer,Otoño,1,No disponible,Alta,Crítica,Adecuada,Alto,Grave
+254,15,Masculino,2023-07-19,2023-07-20,Enfermedad renal,Medicina Interna,Oeste,Baja,Ninguna,Invierno,1,Disponible,Baja,Moderada,Crítica,Bajo,Grave
+255,55,Femenino,2023-08-19,2023-08-26,Infarto,Traumatología,Sur,Alta,Obesidad,Primavera,7,No disponible,Media,Insuficiente,Deficiente,Alto,Crítico
+256,6,Masculino,2023-02-06,2023-02-16,COVID-19,Traumatología,Norte,Media,Hipertensión,Otoño,10,Disponible,Media,Suficiente,Deficiente,Alto,Crítico
+257,43,Masculino,2023-05-01,2023-05-21,Neumonía,Urgencias,Oeste,Media,Obesidad,Invierno,20,Disponible,Crítica,Insuficiente,Óptima,Medio,Grave
+258,1,Otro,2023-04-26,2023-05-04,Accidente,Urgencias,Norte,Alta,Hipertensión,Primavera,8,No disponible,Alta,Moderada,Deficiente,Bajo,Crítico
+259,46,Otro,2023-01-02,2023-01-19,Infarto,Pediatría,Sur,Alta,Hipertensión,Primavera,17,No disponible,Alta,Insuficiente,Óptima,Crítico,Crítico
+260,43,Masculino,2023-04-20,2023-04-30,Cirugía programada,UCI,Este,Alta,Diabetes,Verano,10,No disponible,Media,Insuficiente,Crítica,Crítico,Moderado
+261,51,Otro,2023-03-13,2023-03-19,Infarto,UCI,Sur,Media,Cáncer,Verano,6,Disponible,Crítica,Crítica,Deficiente,Alto,Crítico
+262,20,Otro,2023-05-08,2023-05-09,Infarto,UCI,Sur,Baja,Cáncer,Primavera,1,Disponible,Media,Suficiente,Deficiente,Bajo,Crítico
+263,11,Femenino,2023-12-18,2024-01-07,Infarto,Traumatología,Este,Alta,Hipertensión,Invierno,20,No disponible,Media,Suficiente,Óptima,Bajo,Crítico
+264,87,Femenino,2023-01-17,2023-02-05,Infarto,UCI,Oeste,Baja,Cáncer,Otoño,19,Disponible,Media,Insuficiente,Adecuada,Bajo,Crítico
+265,31,Femenino,2023-11-01,2023-11-21,Accidente,Pediatría,Este,Media,Cáncer,Otoño,20,Disponible,Baja,Crítica,Adecuada,Medio,Crítico
+266,21,Masculino,2023-05-17,2023-06-04,Accidente,Pediatría,Sur,Baja,Ninguna,Invierno,18,Disponible,Baja,Suficiente,Óptima,Bajo,Crítico
+267,18,Otro,2023-10-11,2023-10-26,COVID-19,Traumatología,Oeste,Media,Cáncer,Invierno,15,Disponible,Media,Insuficiente,Adecuada,Medio,Crítico
+268,79,Otro,2023-01-09,2023-01-21,Cirugía programada,Medicina Interna,Norte,Alta,Cáncer,Primavera,12,No disponible,Media,Suficiente,Deficiente,Bajo,Moderado
+269,44,Femenino,2023-06-09,2023-06-10,Neumonía,Medicina Interna,Norte,Media,Hipertensión,Verano,1,Disponible,Media,Crítica,Óptima,Medio,Grave
+270,66,Otro,2023-08-27,2023-09-02,Cirugía programada,Medicina Interna,Sur,Media,Ninguna,Invierno,6,Disponible,Media,Suficiente,Óptima,Medio,Moderado
+271,80,Otro,2023-06-10,2023-06-29,Cirugía programada,Medicina Interna,Centro,Media,Cáncer,Invierno,19,Disponible,Crítica,Insuficiente,Crítica,Alto,Moderado
+272,48,Otro,2023-03-26,2023-04-02,Cirugía programada,Medicina Interna,Sur,Baja,Cáncer,Otoño,7,Disponible,Crítica,Insuficiente,Óptima,Bajo,Moderado
+273,63,Otro,2023-11-11,2023-11-17,Cirugía programada,Traumatología,Oeste,Baja,Cáncer,Otoño,6,Disponible,Baja,Insuficiente,Deficiente,Bajo,Moderado
+274,55,Femenino,2023-04-02,2023-04-15,COVID-19,Medicina Interna,Oeste,Baja,Obesidad,Invierno,13,Disponible,Baja,Insuficiente,Óptima,Bajo,Crítico
+275,4,Otro,2023-05-14,2023-06-02,Enfermedad renal,Pediatría,Sur,Media,Obesidad,Otoño,19,Disponible,Crítica,Moderada,Adecuada,Medio,Grave
+276,57,Masculino,2023-03-02,2023-03-21,Accidente,UCI,Oeste,Media,Obesidad,Otoño,19,Disponible,Baja,Suficiente,Óptima,Medio,Crítico
+277,2,Masculino,2023-04-12,2023-05-02,Accidente,Medicina Interna,Centro,Media,Hipertensión,Otoño,20,Disponible,Crítica,Suficiente,Deficiente,Alto,Crítico
+278,74,Femenino,2023-08-19,2023-08-27,Cirugía programada,Medicina Interna,Este,Alta,Hipertensión,Verano,8,No disponible,Alta,Moderada,Óptima,Bajo,Moderado
+279,32,Femenino,2023-07-14,2023-07-29,Infarto,Urgencias,Sur,Baja,Obesidad,Invierno,15,Disponible,Baja,Crítica,Crítica,Bajo,Crítico
+280,5,Otro,2023-10-11,2023-10-12,Infarto,Urgencias,Norte,Alta,Hipertensión,Verano,1,No disponible,Media,Moderada,Deficiente,Bajo,Crítico
+281,42,Masculino,2023-08-13,2023-08-29,COVID-19,Pediatría,Norte,Alta,Asma,Primavera,16,No disponible,Crítica,Suficiente,Deficiente,Alto,Crítico
+282,7,Femenino,2023-09-24,2023-10-02,COVID-19,Medicina Interna,Sur,Baja,Cáncer,Verano,8,Disponible,Crítica,Suficiente,Óptima,Bajo,Crítico
+283,59,Femenino,2023-10-10,2023-10-18,Enfermedad renal,Pediatría,Norte,Alta,Diabetes,Invierno,8,No disponible,Alta,Moderada,Deficiente,Bajo,Grave
+284,6,Masculino,2023-04-11,2023-04-15,COVID-19,Pediatría,Centro,Baja,Obesidad,Verano,4,Disponible,Crítica,Crítica,Crítica,Bajo,Crítico
+285,54,Masculino,2023-05-27,2023-06-16,COVID-19,Traumatología,Centro,Baja,Cáncer,Invierno,20,Disponible,Crítica,Insuficiente,Deficiente,Bajo,Crítico
+286,24,Masculino,2023-10-18,2023-10-27,Enfermedad renal,Urgencias,Centro,Alta,Obesidad,Primavera,9,No disponible,Crítica,Suficiente,Óptima,Crítico,Grave
+287,37,Femenino,2023-03-21,2023-04-04,Enfermedad renal,Medicina Interna,Norte,Media,Ninguna,Verano,14,Disponible,Alta,Crítica,Crítica,Alto,Grave
+288,46,Femenino,2023-04-26,2023-05-07,Accidente,Medicina Interna,Este,Baja,Diabetes,Primavera,11,Disponible,Baja,Moderada,Crítica,Bajo,Crítico
+289,25,Femenino,2023-07-15,2023-07-17,Cirugía programada,Medicina Interna,Centro,Alta,Hipertensión,Verano,2,No disponible,Crítica,Insuficiente,Adecuada,Alto,Moderado
+290,81,Masculino,2023-01-18,2023-01-24,Infarto,UCI,Centro,Baja,Hipertensión,Primavera,6,Disponible,Media,Insuficiente,Óptima,Bajo,Crítico
+291,34,Otro,2023-02-18,2023-03-02,Neumonía,Traumatología,Centro,Media,Diabetes,Otoño,12,Disponible,Baja,Insuficiente,Deficiente,Alto,Grave
+292,31,Femenino,2023-12-01,2023-12-10,Enfermedad renal,UCI,Sur,Baja,Asma,Otoño,9,Disponible,Baja,Suficiente,Óptima,Bajo,Grave
+293,44,Femenino,2023-06-16,2023-07-05,Infarto,Medicina Interna,Oeste,Media,Cáncer,Otoño,19,Disponible,Baja,Suficiente,Adecuada,Medio,Crítico
+294,6,Femenino,2023-04-21,2023-05-04,Cirugía programada,UCI,Este,Alta,Obesidad,Verano,13,No disponible,Crítica,Insuficiente,Adecuada,Alto,Moderado
+295,49,Femenino,2023-04-26,2023-05-02,Infarto,Urgencias,Sur,Alta,Ninguna,Primavera,6,No disponible,Baja,Moderada,Adecuada,Alto,Crítico
+296,12,Femenino,2023-11-20,2023-11-21,Accidente,UCI,Este,Baja,Hipertensión,Verano,1,Disponible,Media,Moderada,Adecuada,Bajo,Crítico
+297,62,Masculino,2023-06-07,2023-06-20,Accidente,Traumatología,Centro,Baja,Hipertensión,Invierno,13,Disponible,Baja,Crítica,Crítica,Bajo,Crítico
+298,50,Femenino,2023-10-01,2023-10-02,Neumonía,Medicina Interna,Centro,Alta,Hipertensión,Verano,1,No disponible,Media,Suficiente,Crítica,Bajo,Grave
+299,55,Otro,2023-08-04,2023-08-22,COVID-19,Pediatría,Centro,Alta,Diabetes,Invierno,18,No disponible,Alta,Insuficiente,Óptima,Crítico,Crítico
+300,34,Masculino,2023-02-27,2023-03-11,Cirugía programada,Pediatría,Oeste,Media,Diabetes,Primavera,12,Disponible,Crítica,Crítica,Óptima,Medio,Moderado
+301,4,Otro,2023-06-20,2023-07-03,Infarto,Traumatología,Centro,Baja,Ninguna,Invierno,13,Disponible,Crítica,Suficiente,Óptima,Bajo,Crítico
+302,86,Otro,2023-06-17,2023-07-06,COVID-19,Traumatología,Norte,Media,Asma,Invierno,19,Disponible,Alta,Moderada,Deficiente,Alto,Crítico
+303,21,Otro,2023-08-11,2023-08-16,Cirugía programada,Traumatología,Sur,Alta,Hipertensión,Primavera,5,No disponible,Media,Moderada,Deficiente,Bajo,Moderado
+304,66,Masculino,2023-07-15,2023-07-30,Accidente,Urgencias,Sur,Media,Diabetes,Primavera,15,Disponible,Alta,Crítica,Deficiente,Alto,Crítico
+305,62,Femenino,2023-12-01,2023-12-03,Cirugía programada,Urgencias,Este,Media,Ninguna,Verano,2,Disponible,Crítica,Moderada,Adecuada,Medio,Moderado
+306,77,Masculino,2023-08-16,2023-09-05,Neumonía,Urgencias,Este,Media,Diabetes,Verano,20,Disponible,Crítica,Insuficiente,Adecuada,Medio,Grave
+307,61,Masculino,2023-05-18,2023-05-23,Enfermedad renal,Pediatría,Este,Baja,Cáncer,Verano,5,Disponible,Baja,Moderada,Adecuada,Bajo,Grave
+308,12,Otro,2023-08-16,2023-08-27,COVID-19,Medicina Interna,Centro,Alta,Asma,Otoño,11,No disponible,Alta,Crítica,Adecuada,Alto,Crítico
+309,70,Otro,2023-06-10,2023-06-27,COVID-19,Urgencias,Norte,Baja,Diabetes,Primavera,17,Disponible,Baja,Moderada,Crítica,Bajo,Crítico
+310,28,Masculino,2023-01-25,2023-01-28,Accidente,Urgencias,Este,Media,Ninguna,Verano,3,Disponible,Alta,Suficiente,Óptima,Medio,Crítico
+311,27,Masculino,2023-11-11,2023-11-16,Neumonía,Traumatología,Centro,Alta,Diabetes,Invierno,5,No disponible,Alta,Moderada,Adecuada,Bajo,Grave
+312,49,Femenino,2023-08-18,2023-08-19,Cirugía programada,UCI,Centro,Alta,Hipertensión,Invierno,1,No disponible,Media,Moderada,Crítica,Bajo,Moderado
+313,67,Masculino,2023-08-21,2023-09-07,Enfermedad renal,Urgencias,Centro,Alta,Asma,Verano,17,No disponible,Alta,Crítica,Óptima,Crítico,Grave
+314,36,Otro,2023-10-01,2023-10-06,Infarto,Pediatría,Oeste,Alta,Ninguna,Verano,5,No disponible,Media,Crítica,Óptima,Crítico,Crítico
+315,59,Masculino,2023-02-07,2023-02-12,Enfermedad renal,UCI,Centro,Alta,Ninguna,Otoño,5,No disponible,Crítica,Insuficiente,Óptima,Crítico,Grave
+316,1,Masculino,2023-01-14,2023-01-30,Enfermedad renal,Pediatría,Oeste,Baja,Ninguna,Primavera,16,Disponible,Media,Suficiente,Deficiente,Bajo,Grave
+317,72,Otro,2023-11-26,2023-12-07,Accidente,UCI,Sur,Baja,Ninguna,Invierno,11,Disponible,Media,Insuficiente,Crítica,Bajo,Crítico
+318,22,Femenino,2023-12-03,2023-12-15,COVID-19,Traumatología,Este,Alta,Ninguna,Verano,12,No disponible,Baja,Moderada,Adecuada,Alto,Crítico
+319,56,Femenino,2023-03-16,2023-03-27,Neumonía,Medicina Interna,Sur,Media,Cáncer,Primavera,11,Disponible,Crítica,Moderada,Óptima,Medio,Grave
+320,78,Masculino,2023-12-09,2023-12-13,Accidente,Pediatría,Norte,Media,Asma,Otoño,4,Disponible,Alta,Moderada,Crítica,Alto,Crítico
+321,8,Masculino,2023-03-17,2023-03-27,Neumonía,Urgencias,Norte,Media,Diabetes,Otoño,10,Disponible,Baja,Insuficiente,Óptima,Medio,Grave
+322,32,Masculino,2023-11-28,2023-12-08,Infarto,Traumatología,Oeste,Alta,Obesidad,Verano,10,No disponible,Media,Insuficiente,Óptima,Crítico,Crítico
+323,17,Masculino,2023-09-12,2023-09-17,Infarto,Urgencias,Este,Alta,Diabetes,Invierno,5,No disponible,Media,Crítica,Adecuada,Alto,Crítico
+324,10,Femenino,2023-03-22,2023-03-28,Enfermedad renal,UCI,Centro,Alta,Diabetes,Otoño,6,No disponible,Media,Moderada,Crítica,Bajo,Grave
+325,48,Masculino,2023-11-20,2023-11-29,COVID-19,Medicina Interna,Este,Alta,Asma,Verano,9,No disponible,Crítica,Crítica,Adecuada,Alto,Crítico
+326,75,Otro,2023-08-24,2023-09-06,Cirugía programada,Urgencias,Sur,Alta,Asma,Invierno,13,No disponible,Crítica,Suficiente,Deficiente,Alto,Moderado
+327,28,Femenino,2023-01-08,2023-01-09,Enfermedad renal,Urgencias,Sur,Media,Obesidad,Invierno,1,Disponible,Crítica,Insuficiente,Deficiente,Alto,Grave
+328,82,Femenino,2023-07-19,2023-08-01,Infarto,Urgencias,Este,Baja,Asma,Otoño,13,Disponible,Baja,Insuficiente,Crítica,Bajo,Crítico
+329,35,Otro,2023-04-13,2023-04-20,COVID-19,Urgencias,Sur,Baja,Asma,Primavera,7,Disponible,Media,Insuficiente,Crítica,Bajo,Crítico
+330,40,Femenino,2023-08-02,2023-08-15,COVID-19,Urgencias,Norte,Alta,Ninguna,Otoño,13,No disponible,Alta,Suficiente,Óptima,Bajo,Crítico
+331,6,Otro,2023-03-06,2023-03-11,Infarto,UCI,Centro,Baja,Cáncer,Primavera,5,Disponible,Crítica,Suficiente,Deficiente,Bajo,Crítico
+332,82,Otro,2023-06-01,2023-06-11,Neumonía,Urgencias,Norte,Baja,Obesidad,Invierno,10,Disponible,Alta,Crítica,Crítica,Bajo,Grave
+333,10,Femenino,2023-10-25,2023-10-30,Accidente,Pediatría,Oeste,Alta,Diabetes,Primavera,5,No disponible,Alta,Crítica,Deficiente,Alto,Crítico
+334,75,Masculino,2023-09-19,2023-09-23,Cirugía programada,UCI,Centro,Media,Ninguna,Invierno,4,Disponible,Media,Moderada,Crítica,Alto,Moderado
+335,65,Femenino,2023-10-08,2023-10-14,Infarto,Urgencias,Norte,Baja,Hipertensión,Verano,6,Disponible,Baja,Crítica,Deficiente,Bajo,Crítico
+336,64,Femenino,2023-06-22,2023-06-27,COVID-19,Pediatría,Este,Baja,Cáncer,Invierno,5,Disponible,Alta,Crítica,Adecuada,Bajo,Crítico
+337,18,Otro,2023-05-10,2023-05-25,Infarto,Traumatología,Este,Alta,Ninguna,Otoño,15,No disponible,Alta,Crítica,Deficiente,Alto,Crítico
+338,41,Otro,2023-06-14,2023-06-25,Enfermedad renal,Pediatría,Este,Alta,Hipertensión,Verano,11,No disponible,Alta,Suficiente,Deficiente,Bajo,Grave
+339,37,Femenino,2023-10-26,2023-11-02,Cirugía programada,Pediatría,Este,Alta,Hipertensión,Verano,7,No disponible,Crítica,Insuficiente,Deficiente,Alto,Moderado
+340,0,Masculino,2023-01-10,2023-01-24,Enfermedad renal,Pediatría,Norte,Media,Asma,Invierno,14,Disponible,Baja,Suficiente,Crítica,Alto,Grave
+341,11,Otro,2023-09-10,2023-09-11,Cirugía programada,Traumatología,Este,Alta,Diabetes,Verano,1,No disponible,Alta,Moderada,Adecuada,Bajo,Moderado
+342,40,Femenino,2023-08-04,2023-08-16,COVID-19,Pediatría,Este,Alta,Diabetes,Verano,12,No disponible,Baja,Crítica,Adecuada,Alto,Crítico
+343,81,Otro,2023-03-09,2023-03-21,Enfermedad renal,Medicina Interna,Sur,Baja,Diabetes,Invierno,12,Disponible,Media,Suficiente,Deficiente,Bajo,Grave
+344,81,Femenino,2023-08-19,2023-09-08,Enfermedad renal,Urgencias,Sur,Media,Obesidad,Primavera,20,Disponible,Baja,Suficiente,Crítica,Alto,Grave
+345,41,Femenino,2023-07-25,2023-08-02,Accidente,Pediatría,Oeste,Baja,Cáncer,Primavera,8,Disponible,Media,Moderada,Adecuada,Bajo,Crítico
+346,76,Otro,2023-01-10,2023-01-30,Cirugía programada,Traumatología,Norte,Baja,Hipertensión,Invierno,20,Disponible,Media,Crítica,Crítica,Bajo,Moderado
+347,29,Femenino,2023-12-23,2023-12-31,Neumonía,Urgencias,Norte,Alta,Hipertensión,Primavera,8,No disponible,Media,Moderada,Crítica,Bajo,Grave
+348,90,Masculino,2023-11-09,2023-11-11,Accidente,Urgencias,Oeste,Media,Cáncer,Otoño,2,Disponible,Baja,Crítica,Óptima,Medio,Crítico
+349,29,Otro,2023-06-28,2023-07-06,Neumonía,Traumatología,Este,Media,Cáncer,Verano,8,Disponible,Alta,Insuficiente,Deficiente,Alto,Grave
+350,29,Masculino,2023-07-21,2023-07-28,Cirugía programada,Pediatría,Norte,Alta,Hipertensión,Verano,7,No disponible,Media,Insuficiente,Óptima,Crítico,Moderado
+351,14,Masculino,2023-09-23,2023-10-05,Accidente,UCI,Oeste,Baja,Ninguna,Primavera,12,Disponible,Alta,Moderada,Óptima,Bajo,Crítico
+352,55,Femenino,2023-07-05,2023-07-19,Infarto,Medicina Interna,Este,Media,Obesidad,Invierno,14,Disponible,Alta,Crítica,Óptima,Medio,Crítico
+353,61,Masculino,2023-07-28,2023-07-29,COVID-19,UCI,Centro,Media,Obesidad,Invierno,1,Disponible,Baja,Crítica,Deficiente,Alto,Crítico
+354,42,Femenino,2023-04-26,2023-04-27,COVID-19,Traumatología,Norte,Baja,Diabetes,Otoño,1,Disponible,Baja,Moderada,Adecuada,Bajo,Crítico
+355,20,Otro,2023-07-18,2023-07-27,Cirugía programada,UCI,Este,Media,Hipertensión,Invierno,9,Disponible,Baja,Insuficiente,Crítica,Alto,Moderado
+356,64,Femenino,2023-03-14,2023-03-29,Enfermedad renal,Pediatría,Oeste,Baja,Obesidad,Otoño,15,Disponible,Alta,Suficiente,Adecuada,Bajo,Grave
+357,35,Masculino,2023-09-19,2023-10-04,Neumonía,Pediatría,Este,Alta,Obesidad,Invierno,15,No disponible,Media,Suficiente,Óptima,Bajo,Grave
+358,58,Otro,2023-05-10,2023-05-22,Accidente,Urgencias,Sur,Alta,Ninguna,Verano,12,No disponible,Alta,Suficiente,Óptima,Bajo,Crítico
+359,45,Masculino,2023-04-22,2023-04-23,Cirugía programada,Urgencias,Centro,Baja,Asma,Verano,1,Disponible,Alta,Moderada,Óptima,Bajo,Moderado
+360,14,Femenino,2023-04-02,2023-04-21,COVID-19,Urgencias,Oeste,Baja,Diabetes,Primavera,19,Disponible,Alta,Crítica,Adecuada,Bajo,Crítico
+361,70,Otro,2023-10-24,2023-10-30,Infarto,Pediatría,Sur,Alta,Asma,Verano,6,No disponible,Media,Suficiente,Óptima,Bajo,Crítico
+362,78,Masculino,2023-04-12,2023-04-18,Infarto,Traumatología,Oeste,Baja,Obesidad,Otoño,6,Disponible,Alta,Insuficiente,Adecuada,Bajo,Crítico
+363,75,Masculino,2023-03-23,2023-03-26,Infarto,UCI,Sur,Baja,Obesidad,Otoño,3,Disponible,Baja,Suficiente,Óptima,Bajo,Crítico
+364,68,Femenino,2023-12-16,2023-12-20,Cirugía programada,UCI,Norte,Media,Obesidad,Primavera,4,Disponible,Alta,Moderada,Crítica,Alto,Moderado
+365,61,Otro,2023-05-27,2023-06-02,Enfermedad renal,Medicina Interna,Este,Baja,Hipertensión,Otoño,6,Disponible,Alta,Suficiente,Adecuada,Bajo,Grave
+366,66,Masculino,2023-08-13,2023-08-26,Accidente,Traumatología,Este,Media,Cáncer,Primavera,13,Disponible,Baja,Insuficiente,Deficiente,Alto,Crítico
+367,21,Femenino,2023-12-02,2023-12-18,Enfermedad renal,UCI,Este,Media,Asma,Otoño,16,Disponible,Baja,Crítica,Crítica,Alto,Grave
+368,80,Otro,2023-07-14,2023-07-25,Infarto,Pediatría,Sur,Alta,Ninguna,Invierno,11,No disponible,Media,Suficiente,Deficiente,Bajo,Crítico
+369,44,Femenino,2023-02-18,2023-02-28,Infarto,Pediatría,Este,Baja,Cáncer,Otoño,10,Disponible,Media,Moderada,Deficiente,Bajo,Crítico
+370,15,Masculino,2023-11-16,2023-11-19,Accidente,Urgencias,Norte,Alta,Asma,Primavera,3,No disponible,Media,Insuficiente,Crítica,Crítico,Crítico
+371,87,Otro,2023-11-21,2023-11-26,COVID-19,Pediatría,Centro,Baja,Cáncer,Invierno,5,Disponible,Crítica,Suficiente,Óptima,Bajo,Crítico
+372,85,Masculino,2023-02-15,2023-02-16,Neumonía,Medicina Interna,Centro,Baja,Diabetes,Otoño,1,Disponible,Crítica,Moderada,Crítica,Bajo,Grave
+373,2,Masculino,2023-12-23,2024-01-07,Infarto,Pediatría,Sur,Media,Ninguna,Primavera,15,Disponible,Media,Crítica,Adecuada,Medio,Crítico
+374,14,Otro,2023-10-27,2023-11-03,Infarto,Urgencias,Oeste,Baja,Cáncer,Primavera,7,Disponible,Crítica,Insuficiente,Deficiente,Bajo,Crítico
+375,21,Otro,2023-02-15,2023-03-03,Infarto,Pediatría,Centro,Media,Hipertensión,Otoño,16,Disponible,Media,Crítica,Crítica,Alto,Crítico
+376,36,Otro,2023-09-26,2023-10-06,COVID-19,UCI,Este,Alta,Asma,Invierno,10,No disponible,Crítica,Crítica,Deficiente,Alto,Crítico
+377,63,Femenino,2023-07-22,2023-07-30,COVID-19,Urgencias,Centro,Media,Hipertensión,Otoño,8,Disponible,Baja,Suficiente,Crítica,Alto,Crítico
+378,78,Otro,2023-07-16,2023-07-24,Neumonía,Urgencias,Centro,Alta,Obesidad,Invierno,8,No disponible,Baja,Moderada,Deficiente,Alto,Grave
+379,71,Otro,2023-02-09,2023-02-11,COVID-19,UCI,Este,Media,Ninguna,Primavera,2,Disponible,Alta,Moderada,Adecuada,Medio,Crítico
+380,84,Otro,2023-01-04,2023-01-24,Infarto,UCI,Centro,Media,Diabetes,Invierno,20,Disponible,Media,Moderada,Crítica,Alto,Crítico
+381,20,Otro,2023-02-21,2023-02-24,Infarto,UCI,Norte,Baja,Ninguna,Otoño,3,Disponible,Media,Moderada,Crítica,Bajo,Crítico
+382,74,Masculino,2023-10-27,2023-11-02,Cirugía programada,UCI,Oeste,Media,Cáncer,Invierno,6,Disponible,Media,Insuficiente,Óptima,Medio,Moderado
+383,44,Femenino,2023-05-06,2023-05-26,Neumonía,Traumatología,Norte,Media,Ninguna,Primavera,20,Disponible,Media,Suficiente,Óptima,Medio,Grave
+384,64,Masculino,2023-01-07,2023-01-10,COVID-19,Traumatología,Oeste,Alta,Obesidad,Verano,3,No disponible,Crítica,Insuficiente,Deficiente,Alto,Crítico
+385,22,Masculino,2023-12-12,2024-01-01,Cirugía programada,Pediatría,Sur,Alta,Obesidad,Invierno,20,No disponible,Baja,Moderada,Óptima,Crítico,Moderado
+386,63,Masculino,2023-02-12,2023-02-20,Cirugía programada,Pediatría,Sur,Media,Diabetes,Primavera,8,Disponible,Baja,Crítica,Deficiente,Alto,Moderado
+387,48,Masculino,2023-07-17,2023-08-06,Cirugía programada,Pediatría,Este,Baja,Obesidad,Verano,20,Disponible,Crítica,Suficiente,Adecuada,Bajo,Moderado
+388,80,Otro,2023-01-24,2023-02-02,Infarto,Urgencias,Sur,Alta,Asma,Otoño,9,No disponible,Crítica,Moderada,Adecuada,Alto,Crítico
+389,20,Otro,2023-11-12,2023-11-18,COVID-19,Medicina Interna,Este,Alta,Obesidad,Invierno,6,No disponible,Baja,Suficiente,Crítica,Crítico,Crítico
+390,27,Femenino,2023-12-14,2023-12-19,Accidente,UCI,Oeste,Alta,Obesidad,Otoño,5,No disponible,Media,Insuficiente,Adecuada,Alto,Crítico
+391,2,Femenino,2023-09-21,2023-09-29,Neumonía,Urgencias,Centro,Baja,Obesidad,Invierno,8,Disponible,Alta,Suficiente,Óptima,Bajo,Grave
+392,31,Masculino,2023-02-12,2023-03-03,Cirugía programada,Pediatría,Norte,Alta,Obesidad,Invierno,19,No disponible,Alta,Crítica,Crítica,Crítico,Moderado
+393,24,Femenino,2023-07-14,2023-07-31,Cirugía programada,Urgencias,Norte,Media,Hipertensión,Verano,17,Disponible,Media,Suficiente,Deficiente,Alto,Moderado
+394,35,Femenino,2023-05-13,2023-05-17,Accidente,UCI,Este,Alta,Ninguna,Verano,4,No disponible,Baja,Crítica,Adecuada,Alto,Crítico
+395,40,Masculino,2023-11-12,2023-11-30,Enfermedad renal,Medicina Interna,Este,Media,Hipertensión,Primavera,18,Disponible,Baja,Suficiente,Crítica,Alto,Grave
+396,79,Femenino,2023-12-19,2023-12-23,COVID-19,Medicina Interna,Oeste,Media,Asma,Primavera,4,Disponible,Media,Moderada,Deficiente,Alto,Crítico
+397,81,Femenino,2023-01-05,2023-01-12,Cirugía programada,Medicina Interna,Centro,Media,Diabetes,Otoño,7,Disponible,Baja,Crítica,Deficiente,Alto,Moderado
+398,70,Femenino,2023-09-05,2023-09-12,Cirugía programada,UCI,Sur,Baja,Cáncer,Verano,7,Disponible,Baja,Suficiente,Deficiente,Bajo,Moderado
+399,9,Otro,2023-01-20,2023-01-29,Enfermedad renal,Pediatría,Este,Baja,Diabetes,Otoño,9,Disponible,Crítica,Moderada,Óptima,Bajo,Grave
+400,58,Masculino,2023-12-03,2023-12-16,Enfermedad renal,Urgencias,Este,Media,Hipertensión,Primavera,13,Disponible,Baja,Insuficiente,Adecuada,Medio,Grave
+401,82,Femenino,2023-04-09,2023-04-28,Cirugía programada,Pediatría,Centro,Alta,Asma,Primavera,19,No disponible,Media,Crítica,Adecuada,Alto,Moderado
+402,14,Masculino,2023-05-02,2023-05-11,Infarto,Urgencias,Centro,Baja,Hipertensión,Invierno,9,Disponible,Alta,Suficiente,Deficiente,Bajo,Crítico
+403,8,Otro,2023-12-10,2023-12-24,COVID-19,Medicina Interna,Oeste,Media,Hipertensión,Verano,14,Disponible,Media,Moderada,Óptima,Medio,Crítico
+404,59,Masculino,2023-08-07,2023-08-27,Enfermedad renal,Urgencias,Centro,Media,Diabetes,Primavera,20,Disponible,Alta,Moderada,Deficiente,Alto,Grave
+405,1,Femenino,2023-09-03,2023-09-13,Accidente,Traumatología,Sur,Alta,Diabetes,Primavera,10,No disponible,Alta,Moderada,Deficiente,Bajo,Crítico
+406,6,Masculino,2023-08-03,2023-08-05,Accidente,Pediatría,Norte,Media,Hipertensión,Otoño,2,Disponible,Baja,Moderada,Crítica,Alto,Crítico
+407,22,Femenino,2023-05-06,2023-05-24,Infarto,Pediatría,Este,Media,Ninguna,Verano,18,Disponible,Media,Insuficiente,Adecuada,Medio,Crítico
+408,78,Femenino,2023-01-01,2023-01-02,Cirugía programada,Medicina Interna,Sur,Baja,Cáncer,Primavera,1,Disponible,Media,Insuficiente,Crítica,Bajo,Moderado
+409,39,Otro,2023-04-21,2023-05-05,Enfermedad renal,Urgencias,Norte,Baja,Cáncer,Verano,14,Disponible,Crítica,Insuficiente,Adecuada,Bajo,Grave
+410,34,Femenino,2023-05-11,2023-05-19,Neumonía,Pediatría,Sur,Media,Ninguna,Primavera,8,Disponible,Media,Insuficiente,Óptima,Medio,Grave
+411,59,Femenino,2023-01-12,2023-01-30,COVID-19,Urgencias,Centro,Media,Ninguna,Primavera,18,Disponible,Crítica,Crítica,Óptima,Medio,Crítico
+412,41,Masculino,2023-03-26,2023-04-07,Cirugía programada,Pediatría,Este,Alta,Ninguna,Primavera,12,No disponible,Baja,Insuficiente,Óptima,Crítico,Moderado
+413,73,Femenino,2023-06-01,2023-06-16,COVID-19,Pediatría,Centro,Alta,Cáncer,Primavera,15,No disponible,Alta,Moderada,Crítica,Bajo,Crítico
+414,79,Femenino,2023-11-13,2023-11-15,Neumonía,Traumatología,Oeste,Baja,Ninguna,Verano,2,Disponible,Alta,Insuficiente,Adecuada,Bajo,Grave
+415,35,Masculino,2023-07-27,2023-08-11,Neumonía,UCI,Sur,Media,Hipertensión,Invierno,15,Disponible,Crítica,Moderada,Deficiente,Alto,Grave
+416,37,Masculino,2023-10-27,2023-11-04,COVID-19,Traumatología,Norte,Baja,Diabetes,Primavera,8,Disponible,Media,Suficiente,Deficiente,Bajo,Crítico
+417,2,Femenino,2023-02-13,2023-03-04,Infarto,Traumatología,Este,Alta,Cáncer,Verano,19,No disponible,Crítica,Suficiente,Crítica,Crítico,Crítico
+418,52,Femenino,2023-12-05,2023-12-13,Cirugía programada,Urgencias,Oeste,Media,Asma,Primavera,8,Disponible,Baja,Suficiente,Óptima,Medio,Moderado
+419,13,Femenino,2023-01-12,2023-01-27,Cirugía programada,Traumatología,Este,Media,Diabetes,Verano,15,Disponible,Media,Insuficiente,Crítica,Alto,Moderado
+420,10,Otro,2023-06-22,2023-07-03,COVID-19,Medicina Interna,Oeste,Alta,Asma,Primavera,11,No disponible,Media,Suficiente,Óptima,Bajo,Crítico
+421,86,Otro,2023-07-01,2023-07-14,COVID-19,Pediatría,Centro,Alta,Cáncer,Primavera,13,No disponible,Media,Crítica,Deficiente,Alto,Crítico
+422,0,Masculino,2023-03-04,2023-03-05,Accidente,Medicina Interna,Norte,Baja,Obesidad,Verano,1,Disponible,Baja,Suficiente,Adecuada,Bajo,Crítico
+423,68,Masculino,2023-02-24,2023-03-06,Enfermedad renal,Urgencias,Sur,Media,Cáncer,Verano,10,Disponible,Alta,Suficiente,Óptima,Medio,Grave
+424,9,Masculino,2023-11-26,2023-12-05,Neumonía,Pediatría,Oeste,Baja,Hipertensión,Primavera,9,Disponible,Crítica,Crítica,Óptima,Bajo,Grave
+425,56,Otro,2023-05-01,2023-05-05,Accidente,Medicina Interna,Sur,Alta,Asma,Primavera,4,No disponible,Media,Suficiente,Crítica,Bajo,Crítico
+426,11,Femenino,2023-11-14,2023-12-01,Infarto,UCI,Centro,Alta,Obesidad,Invierno,17,No disponible,Media,Suficiente,Adecuada,Bajo,Crítico
+427,57,Femenino,2023-09-25,2023-09-30,Accidente,Medicina Interna,Centro,Alta,Diabetes,Invierno,5,No disponible,Alta,Crítica,Deficiente,Alto,Crítico
+428,0,Femenino,2023-08-16,2023-08-22,Neumonía,UCI,Oeste,Alta,Diabetes,Invierno,6,No disponible,Crítica,Suficiente,Adecuada,Alto,Grave
+429,8,Femenino,2023-07-05,2023-07-13,Enfermedad renal,Urgencias,Sur,Alta,Cáncer,Invierno,8,No disponible,Alta,Suficiente,Deficiente,Bajo,Grave
+430,63,Otro,2023-03-25,2023-04-06,Cirugía programada,UCI,Centro,Baja,Cáncer,Invierno,12,Disponible,Baja,Moderada,Crítica,Bajo,Moderado
+431,12,Otro,2023-12-14,2023-12-21,Neumonía,Medicina Interna,Oeste,Media,Hipertensión,Otoño,7,Disponible,Crítica,Suficiente,Adecuada,Medio,Grave
+432,13,Masculino,2023-11-06,2023-11-17,Infarto,Traumatología,Centro,Media,Obesidad,Verano,11,Disponible,Crítica,Moderada,Adecuada,Medio,Crítico
+433,37,Masculino,2023-02-24,2023-03-04,Neumonía,Urgencias,Norte,Media,Obesidad,Invierno,8,Disponible,Crítica,Crítica,Adecuada,Medio,Grave
+434,19,Otro,2023-11-24,2023-12-09,COVID-19,Urgencias,Oeste,Baja,Ninguna,Otoño,15,Disponible,Alta,Moderada,Óptima,Bajo,Crítico
+435,72,Femenino,2023-02-12,2023-02-17,Accidente,Medicina Interna,Sur,Media,Diabetes,Primavera,5,Disponible,Alta,Crítica,Óptima,Medio,Crítico
+436,83,Otro,2023-02-03,2023-02-12,Neumonía,Urgencias,Este,Baja,Ninguna,Otoño,9,Disponible,Baja,Suficiente,Deficiente,Bajo,Grave
+437,88,Femenino,2023-08-07,2023-08-21,Infarto,Urgencias,Centro,Media,Diabetes,Invierno,14,Disponible,Alta,Moderada,Óptima,Medio,Crítico
+438,65,Masculino,2023-03-26,2023-04-08,Accidente,UCI,Oeste,Alta,Ninguna,Invierno,13,No disponible,Crítica,Insuficiente,Deficiente,Alto,Crítico
+439,52,Femenino,2023-08-28,2023-08-31,COVID-19,Medicina Interna,Oeste,Media,Obesidad,Invierno,3,Disponible,Baja,Crítica,Deficiente,Alto,Crítico
+440,42,Femenino,2023-03-01,2023-03-06,Enfermedad renal,Urgencias,Este,Baja,Diabetes,Verano,5,Disponible,Media,Moderada,Deficiente,Bajo,Grave
+441,47,Masculino,2023-10-26,2023-11-09,COVID-19,UCI,Norte,Baja,Cáncer,Verano,14,Disponible,Alta,Moderada,Deficiente,Bajo,Crítico
+442,76,Masculino,2023-04-04,2023-04-12,Infarto,Medicina Interna,Oeste,Media,Hipertensión,Primavera,8,Disponible,Alta,Suficiente,Adecuada,Medio,Crítico
+443,61,Masculino,2023-09-26,2023-10-06,COVID-19,Traumatología,Este,Alta,Cáncer,Verano,10,No disponible,Alta,Suficiente,Deficiente,Bajo,Crítico
+444,54,Masculino,2023-07-08,2023-07-28,Infarto,Urgencias,Oeste,Alta,Ninguna,Verano,20,No disponible,Media,Insuficiente,Óptima,Crítico,Crítico
+445,19,Femenino,2023-05-22,2023-06-07,Neumonía,Medicina Interna,Sur,Media,Hipertensión,Verano,16,Disponible,Crítica,Moderada,Adecuada,Medio,Grave
+446,13,Femenino,2023-10-11,2023-10-23,Neumonía,Traumatología,Centro,Media,Hipertensión,Otoño,12,Disponible,Media,Moderada,Óptima,Medio,Grave
+447,23,Masculino,2023-05-05,2023-05-13,Neumonía,Medicina Interna,Oeste,Media,Asma,Primavera,8,Disponible,Crítica,Moderada,Deficiente,Alto,Grave
+448,80,Otro,2023-03-14,2023-03-18,Infarto,Traumatología,Centro,Baja,Hipertensión,Invierno,4,Disponible,Crítica,Suficiente,Óptima,Bajo,Crítico
+449,53,Femenino,2023-10-17,2023-11-05,Accidente,Medicina Interna,Oeste,Media,Ninguna,Otoño,19,Disponible,Baja,Suficiente,Crítica,Alto,Crítico
+450,74,Masculino,2023-10-27,2023-11-03,COVID-19,UCI,Oeste,Media,Asma,Otoño,7,Disponible,Baja,Crítica,Óptima,Medio,Crítico
+451,80,Otro,2023-11-12,2023-11-26,COVID-19,Traumatología,Oeste,Baja,Cáncer,Otoño,14,Disponible,Crítica,Insuficiente,Crítica,Bajo,Crítico
+452,24,Femenino,2023-01-09,2023-01-18,Cirugía programada,Urgencias,Norte,Media,Obesidad,Primavera,9,Disponible,Crítica,Suficiente,Deficiente,Alto,Moderado
+453,9,Otro,2023-12-16,2023-12-26,Neumonía,Medicina Interna,Este,Media,Cáncer,Verano,10,Disponible,Media,Crítica,Adecuada,Medio,Grave
+454,23,Masculino,2023-01-19,2023-01-26,Neumonía,Urgencias,Oeste,Media,Diabetes,Verano,7,Disponible,Media,Crítica,Óptima,Medio,Grave
+455,12,Masculino,2023-05-04,2023-05-08,Cirugía programada,Urgencias,Oeste,Alta,Diabetes,Primavera,4,No disponible,Media,Insuficiente,Crítica,Crítico,Moderado
+456,21,Femenino,2023-06-05,2023-06-18,Neumonía,Urgencias,Oeste,Media,Asma,Invierno,13,Disponible,Baja,Insuficiente,Crítica,Alto,Grave
+457,44,Femenino,2023-03-26,2023-04-14,Cirugía programada,UCI,Este,Media,Cáncer,Primavera,19,Disponible,Baja,Crítica,Deficiente,Alto,Moderado
+458,29,Masculino,2023-07-02,2023-07-19,Enfermedad renal,Traumatología,Este,Media,Diabetes,Otoño,17,Disponible,Baja,Suficiente,Óptima,Medio,Grave
+459,52,Otro,2023-09-05,2023-09-11,COVID-19,Pediatría,Sur,Alta,Hipertensión,Invierno,6,No disponible,Media,Suficiente,Óptima,Bajo,Crítico
+460,71,Femenino,2023-01-11,2023-01-22,Accidente,Urgencias,Norte,Media,Cáncer,Primavera,11,Disponible,Baja,Crítica,Adecuada,Medio,Crítico
+461,75,Otro,2023-05-15,2023-05-19,COVID-19,UCI,Norte,Alta,Diabetes,Verano,4,No disponible,Crítica,Moderada,Deficiente,Alto,Crítico
+462,69,Femenino,2023-09-12,2023-09-18,Enfermedad renal,Urgencias,Centro,Alta,Obesidad,Verano,6,No disponible,Alta,Crítica,Óptima,Crítico,Grave
+463,12,Femenino,2023-07-24,2023-08-05,Cirugía programada,Traumatología,Centro,Alta,Diabetes,Otoño,12,No disponible,Alta,Crítica,Óptima,Crítico,Moderado
+464,28,Masculino,2023-03-08,2023-03-15,Neumonía,Medicina Interna,Oeste,Alta,Hipertensión,Otoño,7,No disponible,Crítica,Suficiente,Óptima,Crítico,Grave
+465,31,Femenino,2023-07-01,2023-07-21,Accidente,Traumatología,Este,Baja,Obesidad,Otoño,20,Disponible,Alta,Suficiente,Óptima,Bajo,Crítico
+466,28,Femenino,2023-07-23,2023-08-09,Infarto,Pediatría,Este,Media,Obesidad,Primavera,17,Disponible,Baja,Moderada,Crítica,Alto,Crítico
+467,5,Femenino,2023-03-10,2023-03-27,Neumonía,Medicina Interna,Centro,Baja,Ninguna,Invierno,17,Disponible,Baja,Moderada,Crítica,Bajo,Grave
+468,7,Masculino,2023-04-07,2023-04-25,Cirugía programada,UCI,Centro,Media,Hipertensión,Primavera,18,Disponible,Alta,Insuficiente,Óptima,Medio,Moderado
+469,18,Femenino,2023-11-08,2023-11-10,Infarto,Pediatría,Centro,Alta,Asma,Invierno,2,No disponible,Baja,Insuficiente,Deficiente,Alto,Crítico
+470,53,Otro,2023-08-28,2023-09-15,Accidente,Urgencias,Este,Baja,Cáncer,Invierno,18,Disponible,Media,Suficiente,Adecuada,Bajo,Crítico
+471,42,Femenino,2023-02-20,2023-03-12,Neumonía,Urgencias,Este,Media,Hipertensión,Primavera,20,Disponible,Alta,Suficiente,Adecuada,Medio,Grave
+472,35,Masculino,2023-02-05,2023-02-20,Cirugía programada,Urgencias,Sur,Baja,Ninguna,Otoño,15,Disponible,Alta,Moderada,Adecuada,Bajo,Moderado
+473,56,Masculino,2023-08-17,2023-08-20,Cirugía programada,Medicina Interna,Sur,Baja,Cáncer,Primavera,3,Disponible,Baja,Suficiente,Deficiente,Bajo,Moderado
+474,85,Masculino,2023-02-22,2023-03-14,COVID-19,Traumatología,Sur,Baja,Obesidad,Otoño,20,Disponible,Media,Insuficiente,Óptima,Bajo,Crítico
+475,39,Masculino,2023-08-25,2023-09-11,Neumonía,UCI,Oeste,Baja,Obesidad,Invierno,17,Disponible,Alta,Insuficiente,Adecuada,Bajo,Grave
+476,73,Otro,2023-03-13,2023-03-23,Infarto,Traumatología,Norte,Baja,Diabetes,Otoño,10,Disponible,Baja,Insuficiente,Óptima,Bajo,Crítico
+477,47,Masculino,2023-05-27,2023-06-10,Infarto,Medicina Interna,Este,Media,Obesidad,Otoño,14,Disponible,Baja,Moderada,Deficiente,Alto,Crítico
+478,11,Femenino,2023-08-09,2023-08-24,Infarto,UCI,Centro,Media,Asma,Invierno,15,Disponible,Baja,Crítica,Óptima,Medio,Crítico
+479,18,Otro,2023-06-25,2023-07-10,Enfermedad renal,Medicina Interna,Sur,Alta,Diabetes,Invierno,15,No disponible,Alta,Suficiente,Crítica,Bajo,Grave
+480,12,Femenino,2023-06-02,2023-06-22,COVID-19,Medicina Interna,Centro,Media,Diabetes,Invierno,20,Disponible,Alta,Insuficiente,Óptima,Medio,Crítico
+481,55,Masculino,2023-08-27,2023-08-30,Cirugía programada,UCI,Sur,Alta,Asma,Verano,3,No disponible,Baja,Crítica,Crítica,Crítico,Moderado
+482,2,Masculino,2023-07-18,2023-07-29,Accidente,Pediatría,Este,Alta,Obesidad,Otoño,11,No disponible,Media,Crítica,Adecuada,Alto,Crítico
+483,75,Otro,2023-04-21,2023-05-02,Infarto,Pediatría,Sur,Alta,Cáncer,Otoño,11,No disponible,Crítica,Moderada,Deficiente,Alto,Crítico
+484,3,Femenino,2023-01-22,2023-02-10,Cirugía programada,Urgencias,Sur,Media,Diabetes,Primavera,19,Disponible,Media,Insuficiente,Crítica,Alto,Moderado
+485,80,Otro,2023-12-16,2023-12-26,Accidente,Urgencias,Oeste,Alta,Cáncer,Verano,10,No disponible,Media,Moderada,Adecuada,Bajo,Crítico
+486,59,Masculino,2023-11-24,2023-11-27,Infarto,Urgencias,Centro,Alta,Obesidad,Invierno,3,No disponible,Baja,Suficiente,Crítica,Crítico,Crítico
+487,59,Masculino,2023-06-10,2023-06-11,Cirugía programada,Medicina Interna,Este,Alta,Diabetes,Verano,1,No disponible,Baja,Insuficiente,Crítica,Crítico,Moderado
+488,74,Masculino,2023-06-08,2023-06-24,Neumonía,Urgencias,Este,Alta,Asma,Otoño,16,No disponible,Crítica,Moderada,Crítica,Crítico,Grave
+489,17,Femenino,2023-05-23,2023-05-25,Infarto,Traumatología,Oeste,Baja,Obesidad,Primavera,2,Disponible,Media,Crítica,Adecuada,Bajo,Crítico
+490,24,Masculino,2023-11-06,2023-11-13,Neumonía,Medicina Interna,Sur,Media,Asma,Otoño,7,Disponible,Alta,Suficiente,Adecuada,Medio,Grave
+491,50,Otro,2023-10-12,2023-10-27,Accidente,Urgencias,Oeste,Baja,Asma,Verano,15,Disponible,Crítica,Insuficiente,Adecuada,Bajo,Crítico
+492,78,Masculino,2023-02-14,2023-02-26,Cirugía programada,Urgencias,Norte,Alta,Ninguna,Primavera,12,No disponible,Alta,Suficiente,Adecuada,Bajo,Moderado
+493,90,Femenino,2023-07-04,2023-07-11,COVID-19,UCI,Centro,Media,Asma,Primavera,7,Disponible,Media,Suficiente,Deficiente,Alto,Crítico
+494,79,Otro,2023-09-17,2023-10-04,Cirugía programada,UCI,Oeste,Alta,Hipertensión,Invierno,17,No disponible,Crítica,Insuficiente,Óptima,Crítico,Moderado
+495,79,Otro,2023-06-27,2023-07-01,Enfermedad renal,UCI,Este,Media,Asma,Otoño,4,Disponible,Crítica,Crítica,Deficiente,Alto,Grave
+496,56,Otro,2023-09-18,2023-09-20,Infarto,Medicina Interna,Este,Baja,Ninguna,Invierno,2,Disponible,Media,Moderada,Adecuada,Bajo,Crítico
+497,61,Masculino,2023-04-07,2023-04-18,Infarto,UCI,Sur,Media,Hipertensión,Invierno,11,Disponible,Baja,Moderada,Crítica,Alto,Crítico
+498,22,Femenino,2023-03-27,2023-04-06,Neumonía,Urgencias,Sur,Media,Asma,Invierno,10,Disponible,Media,Insuficiente,Adecuada,Medio,Grave
+499,84,Otro,2023-09-09,2023-09-27,Neumonía,Medicina Interna,Centro,Media,Cáncer,Primavera,18,Disponible,Alta,Suficiente,Crítica,Alto,Grave
+500,59,Masculino,2023-10-20,2023-11-01,Infarto,Urgencias,Este,Media,Hipertensión,Invierno,12,Disponible,Alta,Insuficiente,Crítica,Alto,Crítico
